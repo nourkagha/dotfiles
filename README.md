@@ -20,7 +20,7 @@ Clone the repository by passing `--recurse-submodules` to initialise and update 
 git clone --recurse-submodules https://github.com/nourkagha/dotfiles .dotfiles
 ```
 
-Change into the `.dotfiles` directory and run `install`:
+Change to the `.dotfiles` directory and run `install`:
 
 ```
 cd .dotfiles && ./install

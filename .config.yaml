@@ -16,7 +16,7 @@
     ~/.config/lutris: game/lutris
     ~/.config/MangoHud: app/MangoHud
     ~/.config/wesnoth: game/wesnoth/config
-    ~/.local/share/applications/signal.desktop: app/Signal/signal.desktop
+    ~/.local/share/applications/signal-desktop.desktop: app/Signal/signal-desktop.desktop
     ~/.gitconfig: git/gitconfig
     ~/.p10k.zsh: zsh/p10k.zsh
     ~/.zshenv: zsh/zshenv

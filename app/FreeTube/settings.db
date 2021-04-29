@@ -1,0 +1,7 @@
+{"_id":"backendPreference","value":"local"}
+{"_id":"barColor","value":false}
+{"_id":"bounds","value":{"x":0,"y":64,"width":1920,"height":1016,"maximized":true}}
+{"_id":"defaultProfile","value":"allChannels"}
+{"_id":"defaultQuality","value":"480"}
+{"_id":"defaultTheatreMode","value":true}
+{"_id":"forceLocalBackendForLegacy","value":false}

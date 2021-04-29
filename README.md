@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/nourkagha/dotfiles"><img width="300" height="177" src="https://i.imgur.com/5EdSpRh.png">
+<a href="https://github.com/nourkagha/dotfiles"><img width="300" height="177" src="https://i.imgur.com/iz4QXxv.png">
 </p>
 
 <p align="center">

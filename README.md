@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/nourkagha/dotfiles"><img width="300" height="177" src="https://i.imgur.com/iz4QXxv.png">
+<a href="https://github.com/nourkagha/dotfiles"><img width="300" height="177" src="https://i.imgur.com/5EdSpRh.png">
 </p>
 
 <p align="center">
@@ -7,7 +7,7 @@
 <a href="https://gnome.org"><img src="https://img.shields.io/badge/DE-GNOME-%2306989A?style=for-the-badge" alt="DE"></a>
 <a href="https://zsh.org"><img src="https://img.shields.io/badge/shell-zsh-%2306989A?style=for-the-badge" alt="Shell"></a>
 <a href="https://github.com/nourkagha/dotfiles"><img src="https://img.shields.io/github/repo-size/nourkagha/dotfiles?label=size&logo=&style=for-the-badge" alt="Size"></a>
-<a href="https://github.com/nourkagha/dotfiles/commits"><img src="https://img.shields.io/github/last-commit/nourkagha/dotfiles?label=last%20update&style=for-the-badge" alt="Last update"></a>
+<a href="https://github.com/nourkagha/dotfiles/commits"><img src="https://img.shields.io/github/last-commit/nourkagha/dotfiles?label=updated&style=for-the-badge" alt="Updated"></a>
 </p>
 
 ![image](https://i.imgur.com/5XWFVcF.png)

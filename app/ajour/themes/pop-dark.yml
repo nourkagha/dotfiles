@@ -1,0 +1,15 @@
+name: "Pop Dark"
+palette:
+  base:
+    background: '#2D2D2D'
+    foreground: '#363636'
+  normal:
+    primary: '#7E5B36'
+    secondary: '#627676'
+    surface: '#8AD9D9'
+    error: '#C00000'
+  bright:
+    primary: '#FBB66C'
+    secondary: '#C4ECEC'
+    surface: '#C4ECEC'
+    error: '#FF0000'

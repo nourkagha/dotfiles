@@ -1,0 +1,15 @@
+name: "Black & Cyan"
+palette:
+  base:
+    background: '#000000'
+    foreground: '#111111'
+  normal:
+    primary: '#004762'
+    secondary: '#002c3e'
+    surface: '#007999'
+    error: '#990000'
+  bright:
+    primary: '#00c9ff'
+    secondary: '#00c9ff'
+    surface: '#00c9ff'
+    error: '#ff0000'

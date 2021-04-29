@@ -1,0 +1,6 @@
+system:
+  aco: true
+  gamemode: true
+  mangohud: vk64
+  terminal_app: /usr/bin/alacritty
+  vk_icd: /usr/share/vulkan/icd.d/radeon_icd.x86_64.json

@@ -1,0 +1,4 @@
+system: {}
+wine:
+  esync: true
+  version: lutris-6.4-x86_64

@@ -1,0 +1,121 @@
+---
+wow:
+  directory: ~
+  directories:
+    Retail: /home/nour/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_
+  flavor: Retail
+addons:
+  global_release_channel: Stable
+  ignored:
+    RetailPtr: []
+    Classic: []
+    Retail:
+      - DBM-Azeroth-BfA
+      - DBM-ZuldazarRaid
+      - DBM-CrucibleofStorms
+      - DBM-Party-BfA
+      - DBM-Nyalotha
+      - DBM-EternalPalace
+      - DBM-Uldir
+      - LibRaiderIO_Loader
+      - SharedMedia_MyMedia
+      - WeakAurasCompanion
+      - RaiderIO
+      - DBM-DefaultSkin
+  release_channels:
+    Retail: {}
+    Classic: {}
+    RetailPtr: {}
+  delete_saved_variables: false
+theme: Pop Dark
+column_config:
+  V3:
+    my_addons_columns:
+      - key: title
+        width: ~
+        hidden: false
+      - key: local
+        width: 108
+        hidden: false
+      - key: remote
+        width: 108
+        hidden: false
+      - key: author
+        width: 98
+        hidden: false
+      - key: game_version
+        width: 94
+        hidden: false
+      - key: source
+        width: 85
+        hidden: false
+      - key: channel
+        width: 85
+        hidden: true
+      - key: date_released
+        width: 100
+        hidden: false
+      - key: status
+        width: 89
+        hidden: false
+      - key: summary
+        width: 110
+        hidden: true
+    catalog_columns:
+      - key: addon
+        width: ~
+        hidden: false
+      - key: description
+        width: 240
+        hidden: false
+      - key: num_downloads
+        width: 105
+        hidden: false
+      - key: game_version
+        width: 100
+        hidden: false
+      - key: source
+        width: 110
+        hidden: true
+      - key: date_released
+        width: 103
+        hidden: false
+      - key: install
+        width: 90
+        hidden: false
+      - key: categories
+        width: 85
+        hidden: true
+    aura_columns:
+      - key: title
+        width: ~
+        hidden: false
+      - key: local
+        width: 120
+        hidden: false
+      - key: remote
+        width: 120
+        hidden: false
+      - key: author
+        width: 85
+        hidden: false
+      - key: status
+        width: 110
+        hidden: false
+window_size:
+  - 980
+  - 656
+scale: 1.0
+backup_directory: /home/nour/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Ajour
+backup_addons: false
+backup_wtf: true
+hide_ignored_addons: true
+self_update_channel: Beta
+weak_auras_account:
+  Classic: "458934964#1"
+  Retail: "458934964#1"
+alternating_row_colors: true
+language: English
+catalog_source: Curse
+auto_update: true
+compression_format: Zip

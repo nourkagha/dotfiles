@@ -1,0 +1,15 @@
+name: "Cyberpunk"
+palette:
+  base:
+    background: '#0c1e3e'
+    foreground: '#122c5a'
+  normal:
+    primary: '#fc0ff5'
+    secondary: '#777700'
+    surface: '#84b4bf'
+    error: '#b285ff'
+  bright:
+    primary: '#38fbdb'
+    secondary: '#ffff00'
+    surface: '#b0f1ff'
+    error: '#cdb0ff'

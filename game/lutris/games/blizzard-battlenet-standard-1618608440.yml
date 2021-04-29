@@ -1,0 +1,20 @@
+game:
+  arch: win64
+  exe: drive_c/Program Files (x86)/Battle.net/Battle.net.exe
+  prefix: /home/nour/Games/battlenet
+system:
+  env:
+    DXVK_CONFIG_FILE: /home/nour/Games/battlenet/dxvk.conf
+    DXVK_STATE_CACHE_PATH: /home/nour/Games/battlenet
+    STAGING_SHARED_MEMORY: '1'
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/nour/Games/battlenet
+    mesa_glthread: '1'
+  exclude_processes: Agent.exe "Battle.net Helper.exe"
+  manual_command: /home/nour/Games/battlenet/state-cache-merge/state-cache-update.sh
+wine:
+  overrides:
+    locationapi: d
+    nvapi: d
+    nvapi64: d
+  version: winehq-staging

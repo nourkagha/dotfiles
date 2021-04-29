@@ -14,10 +14,16 @@
 
 ## Installation
 
-Clone the repository by passing `--recurse-submodules` to initialise and update all submodules and nested submodules, then run `install` in the `~/.dotfiles` directory:
+Clone the repository by passing `--recurse-submodules` to initialise and update all submodules:
 
 ```
-git clone --recurse-submodules https://github.com/nourkagha/dotfiles .dotfiles && cd .dotfiles && ./install
+git clone --recurse-submodules https://github.com/nourkagha/dotfiles .dotfiles
+```
+
+Change into the `.dotfiles` directory and run `install`:
+
+```
+cd .dotfiles && ./install
 ```
 
 ## Booting

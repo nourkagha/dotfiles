@@ -7,8 +7,8 @@ wow:
 addons:
   global_release_channel: Stable
   ignored:
-    RetailPtr: []
     Classic: []
+    RetailPtr: []
     Retail:
       - DBM-Azeroth-BfA
       - DBM-ZuldazarRaid
@@ -23,8 +23,8 @@ addons:
       - RaiderIO
       - DBM-DefaultSkin
   release_channels:
-    Retail: {}
     Classic: {}
+    Retail: {}
     RetailPtr: {}
   delete_saved_variables: false
 theme: Pop Dark

@@ -7,8 +7,8 @@ wow:
 addons:
   global_release_channel: Stable
   ignored:
-    Classic: []
     RetailPtr: []
+    Classic: []
     Retail:
       - DBM-Azeroth-BfA
       - DBM-ZuldazarRaid

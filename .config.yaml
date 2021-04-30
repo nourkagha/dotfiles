@@ -32,4 +32,5 @@
 - shell:
   - [git submodule sync --recursive, Sync any updated URLs from .gitmodules to .git/config]
   - [git submodule update --init --recursive, Update submodules from any new URLs]
+  - [sudo apt install zsh, Install the zsh shell]
   - [chsh -s $(which zsh), Make zsh the default shell]

@@ -146,7 +146,7 @@ A list of my favourite and recommended applications.
 - [GameMode](https://github.com/FeralInteractive/gamemode) - Optimises the system for higher game performance.
 - [Gufw](https://github.com/costales/gufw) - GUI for the firewall.
 - [htop](https://github.com/htop-dev/htop) - CLI interactive process viewer and system monitor.
-- [MEGA](https://mega.io/sync)
+- [MEGA](https://mega.io/sync)- Cloud storage.
 - [MultiMC](https://github.com/MultiMC/MultiMC5) - Minecraft launcher for launching and managing of multiple game instances each with their own mods and packs.
 - [neofetch](https://github.com/dylanaraps/neofetch) - CLI system information tool.
 - [OBS Studio](https://github.com/obsproject/obs-studio) - Live streaming and screen recording.

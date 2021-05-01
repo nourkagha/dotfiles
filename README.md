@@ -50,7 +50,11 @@ To update the submodules, if needed, run the following in the `.dotfiles` direct
 git submodule update --remote
 ```
 
+Install all [Packages](https://github.com/nourkagha/dotfiles#packages).
+
 ## Booting
+
+This is for customising the bootloader and bootsplash during the booting process.
 
 ### UEFI
 
@@ -124,6 +128,8 @@ Install the [GNOME Shell Integration](https://addons.mozilla.org/en-US/firefox/a
 - [Transmission Daemon Indicator](https://extensions.gnome.org/extension/365/transmission-daemon-indicator/) - Transmission status indicator. Transmission > Edit > Preferences > Remote > Allow remote access.
 
 ## Packages
+
+A list of my favourite and recommended applications.
 
 ### APT
 

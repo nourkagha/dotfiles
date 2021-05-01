@@ -16,7 +16,7 @@
 
 My dotfiles are managed using [Dotbot](https://github.com/anishathalye/dotbot), a simple, lightweight and self-contained tool which boostraps my files for installation, included as a submodule in the repository.
 
-## Zsh
+### Zsh
 
 Terminal customisation dependencies are also included as submodules.
 

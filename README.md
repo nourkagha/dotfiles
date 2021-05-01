@@ -211,7 +211,7 @@ Install the [GNOME Shell Integration](https://addons.mozilla.org/en-US/firefox/a
 
 ### Recommended
 
-Additional and alternative software that I do not currently have installed but is very useful. For professional software (i.e. design and engineering), a list can be found on https://pop.system76.com.
+Additional and alternative software and applications that I do not currently have installed but are very useful. For professional software (i.e. design and engineering), a list can be found on the [Pop!_OS](https://pop.system76.com) website.
 
 - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) - AppImage integration with the application launcher which allows management, updates and removal of AppImage files. Alternative to appimaged.
 - [Bash-it](https://github.com/Bash-it/bash-it) - Bash customisation framework.

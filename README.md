@@ -14,11 +14,11 @@
 
 # dotfiles
 
-My dotfiles are managed by [Dotbot](https://github.com/anishathalye/dotbot), a simple, lightweight and self-contained tool which bootstraps my files for installation, included as a submodule in the repository.
+My dotfiles are managed by [Dotbot](https://github.com/anishathalye/dotbot) - a simple, lightweight and self-contained tool which bootstraps my files, as a submodule in the repository.
 
 ### Zsh
 
-Terminal customisation dependencies are also included as submodules.
+The terminal customisation dependencies are also included as submodules.
 
 Framework: [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 

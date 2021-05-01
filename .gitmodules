@@ -17,3 +17,6 @@
 [submodule "zsh/custom/plugins/zsh-syntax-highlighting"]
 	path = zsh/custom/plugins/zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
+[submodule "script/proton-ge-custom-updater"]
+	path = script/proton-ge-custom-updater
+	url = https://github.com/p-mng/proton-ge-custom-updater

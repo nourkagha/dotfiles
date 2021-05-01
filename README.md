@@ -18,7 +18,7 @@ My dotfiles are managed by [Dotbot](https://github.com/anishathalye/dotbot) - a 
 
 ### Zsh
 
-The terminal customisation dependencies are also included as submodules.
+My zsh shell terminal customisation dependencies are also included as submodules.
 
 Framework: [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 

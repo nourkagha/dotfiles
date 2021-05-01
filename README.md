@@ -14,19 +14,17 @@
 
 # dotfiles
 
-My dotfiles are managed using [Dotbot](https://github.com/anishathalye/dotbot), a simple, lightweight and self-contained tool which boostraps my files for installation.
+My dotfiles are managed using [Dotbot](https://github.com/anishathalye/dotbot), a simple, lightweight and self-contained tool which boostraps my files for installation, included as a submodule in the repository.
 
-Terminal customisation dependencies for `.zshrc` are also included as submodules in the repository.
+## Zsh
 
-Zsh framework:
+Terminal customisation dependencies are also included as submodules.
 
-- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
+Framework: [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
-Zsh theme:
+Theme: [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
-- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-
-Zsh plugins:
+Plugins:
 
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
@@ -125,40 +123,7 @@ Install the [GNOME Shell Integration](https://addons.mozilla.org/en-US/firefox/a
 - [Syncthing Indicator](https://extensions.gnome.org/extension/1070/syncthing-indicator/) - Syncthing status indicator.
 - [Transmission Daemon Indicator](https://extensions.gnome.org/extension/365/transmission-daemon-indicator/) - Transmission status indicator. Transmission > Edit > Preferences > Remote > Allow remote access.
 
-## Community & Resources
-
-### Pop!_OS
-
-- [Pop!_OS](https://pop.system76.com)
-- [Pop!_Docs](https://support.system76.com/#pop)
-- [Pop!_Community](https://chat.pop-os.org)
-- [Pop!_Planet](https://pop-planet.info)
-- [Pop!_OS Reddit](https://reddit.com/r/pop_os)
-- [Pop!_OS Matrix](https://matrix.to/#/#pop_os:matrix.org)
-- [Pop!_OS GitHub](https://github.com/pop-os)
-
-### Docs & Guides
-
-- [Lutris Docs](https://github.com/lutris/docs)
-- [Chris Titus Tech: The Ultimate Linux Gaming Guide](https://christitus.com/ultimate-linux-gaming-guide)
-- [dotfiles](https://dotfiles.github.io) - Dotfile management, configuration and backup.
-
-### Tips & Tweaks
-
-- Color profile: Standard Space - sRGB.
-- Command prefixes:
-  - `env DRI_PRIME=1` - Run applications using the dedicated GPU.
-  - `gamemoderun` - Run applications using GameMode.
-  - `mangohud` - Run applications with MangoHud (`--dlsym` flag may be required for certain OpenGL games).
-
 ## Packages
-
-### Dependencies/Misc
-
-ffmpeg
-ppa-purge
-seahorse-nautilus
-v4l2loopback-dkms
 
 ### APT
 
@@ -261,3 +226,29 @@ Additional and alternative software that I do not currently have installed but i
 - [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - Material and flat design icons.
 - [QDirStat](https://github.com/shundhammer/qdirstat) - GUI disk usage analyzer based on KDirStat.
 - [TLP](https://github.com/linrunner/TLP) - CLI utility to save laptop battery power.
+
+## Community & Resources
+
+### Pop!_OS
+
+- [Pop!_OS](https://pop.system76.com)
+- [Pop!_Docs](https://support.system76.com/#pop)
+- [Pop!_Community](https://chat.pop-os.org)
+- [Pop!_Planet](https://pop-planet.info)
+- [Pop!_OS Reddit](https://reddit.com/r/pop_os)
+- [Pop!_OS Matrix](https://matrix.to/#/#pop_os:matrix.org)
+- [Pop!_OS GitHub](https://github.com/pop-os)
+
+### Docs & Guides
+
+- [Lutris Docs](https://github.com/lutris/docs)
+- [Chris Titus Tech: The Ultimate Linux Gaming Guide](https://christitus.com/ultimate-linux-gaming-guide)
+- [dotfiles](https://dotfiles.github.io) - Dotfile management, configuration and backup.
+
+### Tips & Tweaks
+
+- Color profile: Standard Space - sRGB.
+- Command prefixes:
+  - `env DRI_PRIME=1` - Run applications using the dedicated GPU.
+  - `gamemoderun` - Run applications using GameMode.
+  - `mangohud` - Run applications with MangoHud (`--dlsym` may be required for certain OpenGL games).

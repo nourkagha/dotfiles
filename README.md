@@ -205,7 +205,10 @@ Install the [GNOME Shell Integration](https://addons.mozilla.org/en-US/firefox/a
 
 - [Proton GE](https://github.com/GloriousEggroll/proton-ge-custom) - Custom version of Valve's Proton by GloriousEggroll.
 
-To install and update Proton GE, run `proton-ge-custom-updater`
+To install and update Proton GE, run:
+```
+proton-ge-custom-updater
+```
 - [MangoHud](https://github.com/flightlessmango/MangoHud) - Overlay for monitoring FPS, CPU, GPU, RAM, temperatures and more.
 - [Spicetify CLI](https://github.com/khanhas/spicetify-cli) - Spotify custom CSS and themes, using [Pop Dark](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Pop-Dark).
 

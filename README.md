@@ -115,7 +115,7 @@ Install the [GNOME Shell Integration](https://addons.mozilla.org/en-US/firefox/a
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) - Fully customisable dock for favourite apps.
 - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/) - Similar to Dash to Dock, but with a Windows look.
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) - Connects an Android phone using [KDE Connect](https://github.com/KDE/kdeconnect-android) to the desktop for phone notifications, file transfer, device control and sync options.
-- [User Themes](https://extensions.gnome.org/extension/19/user-themes/) - Desktop customisation using custom shell themes. Theme folders must be placed in a created `~/.themes` directory and are applied and managed through GNOME Tweaks.
+- [User Themes](https://extensions.gnome.org/extension/19/user-themes/) - Desktop customisation using custom shell themes. Theme folders must be placed in a the `~/.themes` directory and are applied and managed through GNOME Tweaks.
 - [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) - Shows a list of output and input devices in the status menu.
 - [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/) - Brings back tray icons (such as WINE apps) to the top panel.
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) - Disable the screensaver and auto suspend.
@@ -203,12 +203,9 @@ Install the [GNOME Shell Integration](https://addons.mozilla.org/en-US/firefox/a
 
 ### Manual
 
-- [Proton GE](https://github.com/GloriousEggroll/proton-ge-custom) - Custom version of Valve's Proton by GloriousEggroll.
+Follow the instructions for these packages to install or build from source.
 
-To install and update Proton GE, run:
-```
-proton-ge-custom-updater
-```
+- [Proton GE](https://github.com/GloriousEggroll/proton-ge-custom) - Custom version of Valve's Proton by [GloriousEggroll](https://github.com/GloriousEggroll). Using the [proton-ge-custom-updater](https://github.com/p-mng/proton-ge-custom-updater) submodule, it can also be installed and kept updated by running `proton-ge-custom-updater`.
 - [MangoHud](https://github.com/flightlessmango/MangoHud) - Overlay for monitoring FPS, CPU, GPU, RAM, temperatures and more.
 - [Spicetify CLI](https://github.com/khanhas/spicetify-cli) - Spotify custom CSS and themes, using [Pop Dark](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Pop-Dark).
 

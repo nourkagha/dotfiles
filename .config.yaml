@@ -15,7 +15,6 @@
     ~/.config/FreeTube/settings.db: app/FreeTube/settings.db
     ~/.config/lutris: game/lutris
     ~/.config/MangoHud: app/MangoHud
-    ~/.config/wesnoth: game/wesnoth/config
     ~/.local/share/applications/signal-desktop.desktop: app/Signal/signal-desktop.desktop
     ~/.gitconfig: git/gitconfig
     ~/.p10k.zsh: zsh/p10k.zsh
@@ -30,7 +29,7 @@
   - ~/.themes
 
 - shell:
-  - [git submodule sync --recursive, Sync any updated URLs from .gitmodules to .git/config]
-  - [git submodule update --init --recursive, Update submodules from any new URLs]
-  - [sudo apt install zsh, Install the zsh shell]
-  - [chsh -s $(which zsh), Make zsh the default shell]
+  - [git submodule sync --recursive, Sync any updated URLs from .gitmodules to .git/config.]
+  - [git submodule update --init --recursive, Update submodules from any new URLs.]
+  - [sudo apt install zsh, Install zsh shell. CTRL+C to cancel if already installed.]
+  - [chsh -s $(which zsh), Make zsh the default shell.]

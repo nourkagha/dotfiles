@@ -50,7 +50,9 @@ To update the submodules, if needed, run the following in the `.dotfiles` direct
 git submodule update --remote
 ```
 
-Install all [Packages](https://github.com/nourkagha/dotfiles#packages).
+Install the [fonts](/media/font) in `~/.dotfiles/media/font`.
+
+Install all [packages](https://github.com/nourkagha/dotfiles#packages).
 
 ## Booting
 

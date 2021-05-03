@@ -47,7 +47,7 @@ cd .dotfiles && ./install
 Install all [packages](https://github.com/nourkagha/dotfiles#packages):
 
 ```
-./packages.sh
+./packages
 ```
 
 To update the submodules, if needed, run the following in the `.dotfiles` directory:

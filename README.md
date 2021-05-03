@@ -141,35 +141,33 @@ A list of my favourite and recommended applications.
 - [Visual Studio Code](https://github.com/microsoft/vscode) - Code editor.
 - [Dconf Editor](https://gitlab.gnome.org/GNOME/dconf-editor) - GUI editor for GNOME shell settings and configuration.
 - [Discord](https://discord.com) - Community chat platform.
-- [Dropbox](https://dropbox.com/install?os=lnx) - Cloud storage.
+- [Element](https://element.io) - Matrix chat client.
 - [Emacs](https://gnu.org/software/emacs) - Text editor.
-- [Foliate](https://github.com/johnfactotum/foliate) - Ebook reader.
-- [GameHub](https://github.com/tkashkin/GameHub) - Unified gaming library for all games including Steam, GOG, Humble Bundle and itch.io.
 - [GameMode](https://github.com/FeralInteractive/gamemode) - Optimises the system for higher game performance.
+- [GitHub CLI](https://cli.github.com) - GitHub in the terminal.
+- [GitHub Desktop](https://desktop.github.com) - GitHub desktop client.
 - [Gufw](https://github.com/costales/gufw) - GUI for the firewall.
 - [htop](https://github.com/htop-dev/htop) - CLI interactive process viewer and system monitor.
-- [MEGA](https://mega.io/sync)- Cloud storage.
+- [Lutris](https://lutris.net) - Open gaming platform including GOG, Steam, Battle.net, Origin, Uplay and many other sources.
 - [MultiMC](https://github.com/MultiMC/MultiMC5) - Minecraft launcher for launching and managing of multiple game instances each with their own mods and packs.
 - [neofetch](https://github.com/dylanaraps/neofetch) - CLI system information tool.
 - [OBS Studio](https://github.com/obsproject/obs-studio) - Live streaming and screen recording.
 - [Peek](https://github.com/phw/peek) - GIF recorder.
 - [ProtonVPN](https://github.com/ProtonVPN/linux-cli-community) - Private and secure VPN with free and paid plans.
 - [Rclone](https://github.com/rclone/rclone) - CLI/GUI tool based on rsync to upload, sync and encrypt files to any cloud provider.
-- [Signal](https://github.com/signalapp/Signal-Desktop) - Private messenger.
+- [Signal](https://signal.org/download) - Private messenger.
 - [Spotify](https://spotify.com/us/download/linux) - Music streaming.
 - [Stacer](https://github.com/oguzhaninan/Stacer) - All-in-one GUI system monitor utility.
-- [Steam](https://store.steampowered.com/about) - All Steam games. Settings > Steam Play, enable all and use Proton.
+- [Steam](https://store.steampowered.com/about) - Valve's Steam client with Proton.
 - [Stow](https://www.gnu.org/software/stow) - Symlink farm manager.
 - [Streamlink](https://github.com/streamlink/streamlink) - CLI tool to watch from various sources (like Twitch) in VLC. Also has a Twitch GUI client.
 - [Syncthing](https://github.com/syncthing/syncthing) - File synchronisation between devices.
 - [Timeshift](https://github.com/teejee2008/timeshift) - System backup and restore.
 - [Thunderbird](https://thunderbird.net) - Mail.
 - [Transmission](https://github.com/transmission/transmission) - Torrent client.
-- [VeraCrypt](https://github.com/veracrypt/VeraCrypt) - Disk encryption.
 - [Vim](https://github.com/vim/vim) - Text editor.
 - [VirtualBox](https://virtualbox.org) - Virtual machines.
 - [VLC](https://github.com/videolan/vlc) - Video and audio player.
-- [VSCodium](https://github.com/VSCodium/vscodium) - Code editor.
 
 ### Flatpak
 
@@ -185,6 +183,10 @@ A list of my favourite and recommended applications.
 - [Tor Browser](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher) - Secure and anonymous browser.
 
 ### AppImage
+
+[appimaged](https://github.com/probonopd/go-appimage/blob/master/src/appimaged/README.md) - AppImage daemon which automatically integrates AppImages into your desktop environment (i.e. desktop files) if they're present in locations like ~/Applications, ~/Downloads or ~/bin.
+
+Download the following AppImage packages into `~/Applications`:
 
 - [Ajour](https://github.com/ajour/ajour/releases) - Addon manager for World of Warcraft.
 - [Bitwarden](https://github.com/bitwarden/desktop/releases) - Online password manager.
@@ -213,9 +215,15 @@ A list of my favourite and recommended applications.
 
 Follow the instructions for these packages to install or build from source.
 
-- [Proton GE](https://github.com/GloriousEggroll/proton-ge-custom) - Custom version of Valve's Proton by [GloriousEggroll](https://github.com/GloriousEggroll). Using the [proton-ge-custom-updater](https://github.com/p-mng/proton-ge-custom-updater) submodule, it can also be installed and kept updated by running `proton-ge-custom-updater`.
+- [Dropbox](https://dropbox.com/install?os=lnx) - Cloud storage.
+- [Foliate](https://github.com/johnfactotum/foliate) - Ebook reader.
+- [GameHub](https://github.com/tkashkin/GameHub) - Unified gaming library for all games including Steam, GOG, Humble Bundle and itch.io.
 - [MangoHud](https://github.com/flightlessmango/MangoHud) - Overlay for monitoring FPS, CPU, GPU, RAM, temperatures and more.
+- [MEGA](https://mega.io/sync)- Cloud storage.
+- [Proton GE](https://github.com/GloriousEggroll/proton-ge-custom) - Custom version of Valve's Proton by [GloriousEggroll](https://github.com/GloriousEggroll). Using the [proton-ge-custom-updater](https://github.com/p-mng/proton-ge-custom-updater) submodule, it can also be installed and kept updated by running `proton-ge-custom-updater`.
 - [Spicetify CLI](https://github.com/khanhas/spicetify-cli) - Spotify custom CSS and themes, using [Pop Dark](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Pop-Dark).
+- [VeraCrypt](https://github.com/veracrypt/VeraCrypt) - Disk encryption.
+- [VSCodium](https://github.com/VSCodium/vscodium) - Code editor.
 
 ## Software
 

@@ -44,16 +44,16 @@ Change to the `.dotfiles` directory and run `install`:
 cd .dotfiles && ./install
 ```
 
-To update the submodules, if needed, run the following in the `.dotfiles` directory:
-
-```
-git submodule update --remote
-```
-
 Install all [packages](https://github.com/nourkagha/dotfiles#packages):
 
 ```
 ./packages
+```
+
+To update the submodules, if needed, run the following in the `.dotfiles` directory:
+
+```
+git submodule update --remote
 ```
 
 ## Booting

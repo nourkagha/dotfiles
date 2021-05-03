@@ -28,3 +28,4 @@ fi
 
 source "$HOME/.cargo/env"
 export PATH=$PATH:/usr/local/go/bin
+export GPG_TTY=$(tty)

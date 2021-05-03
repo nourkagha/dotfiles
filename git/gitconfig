@@ -1,3 +1,6 @@
 [user]
 	email = 50773468+nourkagha@users.noreply.github.com
 	name = Nour Agha
+	signingkey = 1A4254BE13E9ED8A
+[commit]
+	gpgsign = true

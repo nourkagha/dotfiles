@@ -234,6 +234,7 @@ Additional and alternative software and applications that I do not currently hav
 - [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) - Fish customisation framework.
 - [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) - RGB lighting control.
 - [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - Material and flat design icons.
+- [Pop!_Paste](https://paste.pop-planet.info) - Pastebin CLI tool for Pop!_Planet.
 - [QDirStat](https://github.com/shundhammer/qdirstat) - GUI disk usage analyzer based on KDirStat.
 - [TLP](https://github.com/linrunner/TLP) - CLI utility to save laptop battery power.
 

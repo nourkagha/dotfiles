@@ -123,7 +123,7 @@ Install the [GNOME Shell Integration](https://addons.mozilla.org/en-US/firefox/a
 - [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) - Fully customisable dock for favourite apps.
 - [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/) - Similar to Dash to Dock, but with a Windows look.
 - [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) - Connects an Android phone using [KDE Connect](https://github.com/KDE/kdeconnect-android) to the desktop for phone notifications, file transfer, device control and sync options.
-- [User Themes](https://extensions.gnome.org/extension/19/user-themes/) - Desktop customisation using custom shell themes. Theme folders must be placed in a the `~/.themes` directory and are applied and managed through GNOME Tweaks.
+- [User Themes](https://extensions.gnome.org/extension/19/user-themes/) - Desktop customisation using custom shell themes. Theme folders must be placed in the `~/.themes` directory and are applied and managed through GNOME Tweaks.
 - [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) - Shows a list of output and input devices in the status menu.
 - [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/) - Brings back tray icons (such as WINE apps) to the top panel.
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) - Disable the screensaver and auto suspend.

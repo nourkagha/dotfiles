@@ -3,6 +3,7 @@
       create: true
       relink: true
       force: true
+      glob: true
 
 - clean: ['~', '~/.config']
 
@@ -16,6 +17,7 @@
     ~/.config/lutris: game/lutris
     ~/.config/MangoHud: app/MangoHud
     ~/.local/share/applications/signal-desktop.desktop: app/Signal/signal-desktop.desktop
+    ~/.local/share/fonts/: media/font/*
     ~/.gitconfig: git/gitconfig
     ~/.p10k.zsh: zsh/p10k.zsh
     ~/.profile: bash/profile

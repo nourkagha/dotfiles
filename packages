@@ -55,7 +55,7 @@ printf "Package: *\nPin: release o=LP-PPA-kisak-kisak-mesa\nPin-Priority: 2000\n
 sudo apt update && sudo apt upgrade -y
 
 # Install dependencies and utilities
-# FFmpeg, PPA purge, Seahorse Nautilus extension, GNU Stow, Virtual Camera
+# FFmpeg, PPA purge, Seahorse Nautilus extension, Virtual Camera
 
 sudo apt install -y \
 ffmpeg \

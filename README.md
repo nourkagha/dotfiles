@@ -129,7 +129,6 @@ Install the [GNOME Shell Integration](https://addons.mozilla.org/en-US/firefox/a
 - [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) - Disable the screensaver and auto suspend.
 - [GameMode](https://extensions.gnome.org/extension/1852/gamemode/) - GameMode status indicator.
 - [Syncthing Indicator](https://extensions.gnome.org/extension/1070/syncthing-indicator/) - Syncthing status indicator.
-- [Transmission Daemon Indicator](https://extensions.gnome.org/extension/365/transmission-daemon-indicator/) - Transmission status indicator. Transmission > Edit > Preferences > Remote > Allow remote access.
 
 ## Packages
 

@@ -6,7 +6,7 @@ function noups() {
  sudo apt upgrade -y
  flatpak update -y
  proton-ge-custom-updater
- sudo apt autoremove
+ sudo apt autoremove -y
  sudo apt clean
  flatpak uninstall --unused
 }

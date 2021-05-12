@@ -7,6 +7,7 @@ wow:
 addons:
   global_release_channel: Stable
   ignored:
+    Classic: []
     Retail:
       - DBM-Azeroth-BfA
       - DBM-ZuldazarRaid
@@ -20,12 +21,11 @@ addons:
       - WeakAurasCompanion
       - RaiderIO
       - DBM-DefaultSkin
-    Classic: []
     RetailPtr: []
   release_channels:
     Classic: {}
-    Retail: {}
     RetailPtr: {}
+    Retail: {}
   delete_saved_variables: false
 theme: Pop Dark
 column_config:
@@ -112,8 +112,8 @@ backup_wtf: true
 hide_ignored_addons: true
 self_update_channel: Beta
 weak_auras_account:
-  Classic: "458934964#1"
   Retail: "458934964#1"
+  Classic: "458934964#1"
 alternating_row_colors: true
 language: English
 catalog_source: Curse

@@ -7,7 +7,7 @@ wow:
 addons:
   global_release_channel: Stable
   ignored:
-    Classic: []
+    RetailPtr: []
     Retail:
       - DBM-Azeroth-BfA
       - DBM-ZuldazarRaid
@@ -21,11 +21,11 @@ addons:
       - WeakAurasCompanion
       - RaiderIO
       - DBM-DefaultSkin
-    RetailPtr: []
+    Classic: []
   release_channels:
-    Classic: {}
     RetailPtr: {}
     Retail: {}
+    Classic: {}
   delete_saved_variables: false
 theme: Pop Dark
 column_config:

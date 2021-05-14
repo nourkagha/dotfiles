@@ -9,7 +9,7 @@ system:
     STAGING_SHARED_MEMORY: '1'
     __GL_SHADER_DISK_CACHE: '1'
     __GL_SHADER_DISK_CACHE_PATH: /home/nour/Games/battlenet
-    mesa_glthread: '1'
+    mesa_glthread: 'true'
   exclude_processes: Agent.exe "Battle.net Helper.exe"
   manual_command: /home/nour/Games/battlenet/state-cache-merge/state-cache-update.sh
 wine:

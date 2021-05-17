@@ -181,6 +181,7 @@ A list of my favourite and recommended applications.
 - [OnionShare](https://flathub.org/apps/details/org.onionshare.OnionShare) - Secure and anonymous file sharing.
 - [OTPClient](https://flathub.org/apps/details/com.github.paolostivanin.OTPClient) - OTP authenticator.
 - [Remmina](https://flathub.org/apps/details/org.remmina.Remmina) - Remote desktop client.
+- [Tootle](https://www.flathub.org/apps/details/com.github.bleakgrey.tootle) - Mastodon client.
 - [Tor Browser](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher) - Secure and anonymous browser.
 
 ### AppImage

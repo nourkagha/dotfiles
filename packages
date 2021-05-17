@@ -114,6 +114,7 @@ com.mattermost.Desktop \
 org.onionshare.OnionShare \
 com.github.paolostivanin.OTPClient \
 org.remmina.Remmina \
+com.github.bleakgrey.tootle \
 com.github.micahflee.torbrowser-launcher
 
 # Install Proton GE

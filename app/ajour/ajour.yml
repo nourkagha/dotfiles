@@ -23,8 +23,8 @@ addons:
     Classic: []
     RetailPtr: []
   release_channels:
-    Retail: {}
     Classic: {}
+    Retail: {}
     RetailPtr: {}
   delete_saved_variables: false
 theme: Pop Dark
@@ -104,7 +104,7 @@ column_config:
         hidden: false
 window_size:
   - 980
-  - 656
+  - 616
 scale: 1.0
 backup_directory: /home/nour/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Ajour
 backup_addons: false
@@ -112,8 +112,8 @@ backup_wtf: true
 hide_ignored_addons: true
 self_update_channel: Beta
 weak_auras_account:
-  Retail: "458934964#1"
   Classic: "458934964#1"
+  Retail: "458934964#1"
 alternating_row_colors: true
 language: English
 catalog_source: Curse

@@ -20,11 +20,11 @@ addons:
       - WeakAurasCompanion
       - RaiderIO
       - DBM-DefaultSkin
-    Classic: []
     RetailPtr: []
+    ClassicEra: []
   release_channels:
-    Classic: {}
     Retail: {}
+    ClassicEra: {}
     RetailPtr: {}
   delete_saved_variables: false
 theme: Pop Dark
@@ -109,10 +109,11 @@ scale: 1.0
 backup_directory: /home/nour/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Ajour
 backup_addons: false
 backup_wtf: true
+backup_config: true
 hide_ignored_addons: true
 self_update_channel: Beta
 weak_auras_account:
-  Classic: "458934964#1"
+  ClassicEra: "458934964#1"
   Retail: "458934964#1"
 alternating_row_colors: true
 language: English

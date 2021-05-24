@@ -1,5 +1,8 @@
 system:
   aco: true
+  disable_compositor: true
+  env:
+    DXVK_HUD: compiler
   gamemode: true
   mangohud: vk64
   terminal_app: /usr/bin/alacritty

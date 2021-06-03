@@ -196,12 +196,12 @@ Download the following AppImage packages into `~/Applications`:
 - [Chatterino](https://github.com/Chatterino/chatterino2/releases) - Twitch chat client.
 - [Conky](https://github.com/brndnmtthws/conky/releases) - System monitor for X which displays information on the desktop.
 - [Cryptomator](https://github.com/cryptomator/cryptomator/releases) - Local and cloud file encryption.
-- [Electrum](https://github.com/spesmilo/electrum/releases) - Bitcoin wallet.
+- [Electrum](https://electrum.org/#download) - Bitcoin wallet.
 - [FontForge](https://github.com/fontforge/fontforge/releases) - Font editor.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube/releases) - Private YouTube client.
 - [Inkscape](https://inkscape.org/releases) - Vector graphics editor.
 - [Joplin](https://github.com/laurent22/joplin/releases) - Notes.
-- [Kdenlive](https://github.com/KDE/kdenlive/releases) - Video editor.
+- [Kdenlive](https://kdenlive.org/en/download) - Video editor.
 - [KeePassXC](https://github.com/keepassxreboot/keepassxc/releases) - Offline password manager.
 - [LibreWolf](https://gitlab.com/librewolf-community/browser/linux/-/releases) - Firefox fork focused on privacy, security and freedom.
 - [LMMS](https://github.com/LMMS/lmms/releases) - Digital audio workstation.

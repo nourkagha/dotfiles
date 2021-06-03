@@ -141,10 +141,6 @@ sudo apt install -y default-jdk
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-# Install GameHub
-
-
-
 # Run Steam and install Proton GE
 
 steam

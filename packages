@@ -117,12 +117,25 @@ sudo add-apt-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ hirsut
 sudo apt-get update
 sudo apt-get install --install-recommends winehq-staging
 
-# Install Proton GE
-
-proton-ge-custom-updater
-
 # Install and run the AppImage daemon
 
 wget -c https://github.com/$(wget -q https://github.com/probonopd/go-appimage/releases -O - | grep "appimaged-.*-x86_64.AppImage" | head -n 1 | cut -d '"' -f 2)
 chmod +x appimaged-*.AppImage
 ./appimaged-*.AppImage
+
+# Install thefuck plugin
+
+sudo apt install -y python3-dev python3-pip python3-setuptools
+sudo pip3 install thefuck
+
+# Install Java
+
+sudo apt install -y default-jdk
+
+# Install Rust
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Run Steam and install Proton GE
+steam
+proton-ge-custom-updater

@@ -137,5 +137,6 @@ sudo apt install -y default-jdk
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Run Steam and install Proton GE
+
 steam
 proton-ge-custom-updater

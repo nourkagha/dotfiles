@@ -144,6 +144,7 @@ A list of my favourite and recommended applications.
 - [Discord](https://discord.com) - Community chat platform.
 - [Element](https://element.io) - Matrix chat client.
 - [Emacs](https://gnu.org/software/emacs) - Text editor.
+- [Flameshot](https://github.com/flameshot-org/flameshot) - Screenshots.
 - [GameMode](https://github.com/FeralInteractive/gamemode) - Optimises the system for higher game performance.
 - [GitHub CLI](https://cli.github.com) - GitHub in the terminal.
 - [GitHub Desktop](https://desktop.github.com) - GitHub desktop client.
@@ -154,7 +155,6 @@ A list of my favourite and recommended applications.
 - [neofetch](https://github.com/dylanaraps/neofetch) - CLI system information tool.
 - [OBS Studio](https://github.com/obsproject/obs-studio) - Live streaming and screen recording.
 - [Peek](https://github.com/phw/peek) - GIF recorder.
-- [ProtonVPN](https://github.com/ProtonVPN/linux-cli-community) - Private and secure VPN with free and paid plans.
 - [Rclone](https://github.com/rclone/rclone) - CLI/GUI tool based on rsync to upload, sync and encrypt files to any cloud provider.
 - [Signal](https://signal.org/download) - Private messenger.
 - [Spotify](https://spotify.com/us/download/linux) - Music streaming.
@@ -223,6 +223,7 @@ Follow the instructions for these packages to install or build from source.
 - [MangoHud](https://github.com/flightlessmango/MangoHud) - Overlay for monitoring FPS, CPU, GPU, RAM, temperatures and more.
 - [MEGA](https://mega.io/sync)- Cloud storage.
 - [Proton GE](https://github.com/GloriousEggroll/proton-ge-custom) - Custom version of Valve's Proton by [GloriousEggroll](https://github.com/GloriousEggroll). Using the [proton-ge-custom-updater](https://github.com/p-mng/proton-ge-custom-updater) submodule, it can also be installed and kept updated by running `proton-ge-custom-updater`.
+- [ProtonVPN](https://protonvpn.com/support/linux-ubuntu-vpn-setup/) - Private and secure VPN with free and paid plans.
 - [Spicetify CLI](https://github.com/khanhas/spicetify-cli) - Spotify custom CSS and themes, using [Pop Dark](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Pop-Dark).
 - [VeraCrypt](https://github.com/veracrypt/VeraCrypt) - Disk encryption.
 - [VSCodium](https://github.com/VSCodium/vscodium) - Code editor.

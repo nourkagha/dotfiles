@@ -4,20 +4,18 @@
 
 sudo apt update && sudo apt upgrade -y
 
-# Install wget and apt-transport-https
+# Install and change shell to zsh
 
-sudo apt-get install -y wget apt-transport-https
+sudo apt-get install -y zsh
+chsh -s $(which zsh)
+
+# Install apt-transport-https
+
+sudo apt-get install -y apt-transport-https
 
 # Add 32-bit architecture
 
 sudo dpkg --add-architecture i386
-
-# Install Wine dependencies
-
-wget -nc https://dl.winehq.org/wine-builds/winehq.key
-sudo apt-key add winehq.key
-sudo apt-get update
-sudo apt-get install --install-recommends winehq-staging
 
 # Add Element repo
 
@@ -37,18 +35,14 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 
 # Add GitHub CLI repo
 
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
-sudo apt-add-repository https://cli.github.com/packages
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo gpg --dearmor -o /usr/share/keyrings/githubcli-archive-keyring.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
 
-# Add ProtonVPN repo
+# Add Kisak Mesa PPA and pin (optional)
+# Uncomment the following lines to install the Kisak Mesa drivers
 
-wget -q -O - https://repo.protonvpn.com/debian/public_key.asc | sudo apt-key add - 
-sudo add-apt-repository 'deb https://repo.protonvpn.com/debian unstable main'
-
-# Add Kisak Mesa PPA and pin
-
-sudo add-apt-repository -y ppa:kisak/kisak-mesa
-printf "Package: *\nPin: release o=LP-PPA-kisak-kisak-mesa\nPin-Priority: 2000\n" | sudo tee /etc/apt/preferences.d/kisak-mesa
+# sudo add-apt-repository -y ppa:kisak/kisak-mesa
+# printf "Package: *\nPin: release o=LP-PPA-kisak-kisak-mesa\nPin-Priority: 2000\n" | sudo tee /etc/apt/preferences.d/kisak-mesa
 
 # Update and upgrade packages
 
@@ -74,6 +68,7 @@ doncf-editor \
 discord \
 element-desktop \
 emacs \
+flameshot \
 gamemode \
 gh \
 github-desktop \
@@ -82,10 +77,8 @@ htop \
 lutris \
 multimc \
 neofetch \
-noisetorch \
 obs-studio \
 peek \
-protonvpn \
 rclone \
 signal-desktop \
 spotify-client \
@@ -97,7 +90,6 @@ syncthing \
 timeshift \
 thunderbird \
 transmission \
-veracrypt \
 vim \
 virtualbox \
 vlc
@@ -116,6 +108,14 @@ com.github.paolostivanin.OTPClient \
 org.remmina.Remmina \
 com.github.bleakgrey.tootle \
 com.github.micahflee.torbrowser-launcher
+
+# Install Wine dependencies
+
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+sudo apt-key add winehq.key
+sudo add-apt-repository -y 'deb https://dl.winehq.org/wine-builds/ubuntu/ hirsute main'
+sudo apt-get update
+sudo apt-get install --install-recommends winehq-staging
 
 # Install Proton GE
 

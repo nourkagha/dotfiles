@@ -118,7 +118,7 @@ sudo apt-get install --install-recommends winehq-staging
 
 # Install Proton GE
 
-proton-custom-ge-updater
+proton-ge-custom-updater
 
 # Install and run the AppImage daemon
 

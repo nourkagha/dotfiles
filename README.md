@@ -145,6 +145,7 @@ A list of my favourite and recommended applications.
 - [Element](https://element.io) - Matrix chat client.
 - [Emacs](https://gnu.org/software/emacs) - Text editor.
 - [Flameshot](https://github.com/flameshot-org/flameshot) - Screenshots.
+- [GameHub](https://github.com/tkashkin/GameHub) - Unified gaming library for all games including Steam, GOG, Humble Bundle and itch.io.
 - [GameMode](https://github.com/FeralInteractive/gamemode) - Optimises the system for higher game performance.
 - [GitHub CLI](https://cli.github.com) - GitHub in the terminal.
 - [GitHub Desktop](https://desktop.github.com) - GitHub desktop client.
@@ -209,7 +210,7 @@ Download the following AppImage packages into `~/Applications`:
 - [OpenShot](https://github.com/OpenShot/openshot-qt/releases) - Video editor.
 - [pCloud](https://pcloud.com/download-free-online-cloud-file-storage.html) - Cloud storage.
 - [Raider.IO](https://raider.io/addon) - Raider.IO addon and client.
-- [RuneLite](https://github.com/runelite/runelite/releases) - Old School RuneScape client.
+- [RuneLite](https://runelite.net) - Old School RuneScape client.
 - [Standard Notes](https://github.com/standardnotes/desktop/releases) - Notes.
 
 ### Manual
@@ -218,7 +219,6 @@ Follow the instructions for these packages to install or build from source.
 
 - [Dropbox](https://dropbox.com/install?os=lnx) - Cloud storage.
 - [Foliate](https://github.com/johnfactotum/foliate) - Ebook reader.
-- [GameHub](https://github.com/tkashkin/GameHub) - Unified gaming library for all games including Steam, GOG, Humble Bundle and itch.io.
 - [MangoHud](https://github.com/flightlessmango/MangoHud) - Overlay for monitoring FPS, CPU, GPU, RAM, temperatures and more.
 - [MEGA](https://mega.io/sync)- Cloud storage.
 - [MultiMC](https://multimc.org/#Download) - Minecraft launcher for launching and managing of multiple game instances each with their own mods and packs.

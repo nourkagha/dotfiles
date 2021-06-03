@@ -9,6 +9,7 @@
 
 - link:
     ~/bin: bin
+    ~/.bashrc: bash/bashrc
     ~/.config/ajour/themes: app/ajour/themes
     ~/.config/ajour/ajour.yml: app/ajour/ajour.yml
     ~/.config/alacritty: app/alacritty
@@ -34,5 +35,3 @@
 - shell:
   - [git submodule sync --recursive, Sync any updated URLs from .gitmodules to .git/config.]
   - [git submodule update --init --recursive, Update submodules from any new URLs.]
-  - [sudo apt install zsh, Install zsh shell. CTRL+C to cancel if already installed.]
-  - [chsh -s $(which zsh), Make zsh the default shell.]

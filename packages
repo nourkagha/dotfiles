@@ -3,6 +3,7 @@
 # Update the system
 
 sudo apt update && sudo apt upgrade -y
+flatpak update
 
 # Install and change shell to zsh
 
@@ -47,7 +48,6 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githu
 # Update and upgrade packages
 
 sudo apt update && sudo apt upgrade -y
-flatpak update
 
 # Install dependencies and utilities
 # FFmpeg, PPA purge, Seahorse Nautilus extension, Virtual Camera

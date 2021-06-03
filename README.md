@@ -151,7 +151,6 @@ A list of my favourite and recommended applications.
 - [Gufw](https://github.com/costales/gufw) - GUI for the firewall.
 - [htop](https://github.com/htop-dev/htop) - CLI interactive process viewer and system monitor.
 - [Lutris](https://lutris.net) - Open gaming platform including GOG, Steam, Battle.net, Origin, Uplay and many other sources.
-- [MultiMC](https://github.com/MultiMC/MultiMC5) - Minecraft launcher for launching and managing of multiple game instances each with their own mods and packs.
 - [neofetch](https://github.com/dylanaraps/neofetch) - CLI system information tool.
 - [OBS Studio](https://github.com/obsproject/obs-studio) - Live streaming and screen recording.
 - [Peek](https://github.com/phw/peek) - GIF recorder.
@@ -222,6 +221,7 @@ Follow the instructions for these packages to install or build from source.
 - [GameHub](https://github.com/tkashkin/GameHub) - Unified gaming library for all games including Steam, GOG, Humble Bundle and itch.io.
 - [MangoHud](https://github.com/flightlessmango/MangoHud) - Overlay for monitoring FPS, CPU, GPU, RAM, temperatures and more.
 - [MEGA](https://mega.io/sync)- Cloud storage.
+- [MultiMC](https://multimc.org/#Download) - Minecraft launcher for launching and managing of multiple game instances each with their own mods and packs.
 - [Proton GE](https://github.com/GloriousEggroll/proton-ge-custom) - Custom version of Valve's Proton by [GloriousEggroll](https://github.com/GloriousEggroll). Using the [proton-ge-custom-updater](https://github.com/p-mng/proton-ge-custom-updater) submodule, it can also be installed and kept updated by running `proton-ge-custom-updater`.
 - [ProtonVPN](https://protonvpn.com/support/linux-ubuntu-vpn-setup/) - Private and secure VPN with free and paid plans.
 - [Spicetify CLI](https://github.com/khanhas/spicetify-cli) - Spotify custom CSS and themes, using [Pop Dark](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Pop-Dark).

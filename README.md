@@ -176,6 +176,7 @@ A list of my favourite and recommended applications.
 - [Fractal](https://flathub.org/apps/details/org.gnome.Fractal) - Matrix client.
 - [Giara](https://flathub.org/apps/details/org.gabmus.giara) - Reddit client.
 - [GIMP](https://flathub.org/apps/details/org.gimp.GIMP) - Photo editor.
+- [LibreWolf](https://flathub.org/apps/details/io.gitlab.librewolf-community) - Firefox fork focused on privacy, security and freedom.
 - [Lollypop](https://flathub.org/apps/details/org.gnome.Lollypop) - Music player.
 - [Mattermost](https://flathub.org/apps/details/com.mattermost.Desktop) - Collaboration chat platform.
 - [OnionShare](https://flathub.org/apps/details/org.onionshare.OnionShare) - Secure and anonymous file sharing.
@@ -203,7 +204,6 @@ Download the following AppImage packages into `~/Applications`:
 - [Joplin](https://github.com/laurent22/joplin/releases) - Notes.
 - [Kdenlive](https://kdenlive.org/en/download) - Video editor.
 - [KeePassXC](https://github.com/keepassxreboot/keepassxc/releases) - Offline password manager.
-- [LibreWolf](https://gitlab.com/librewolf-community/browser/linux/-/releases) - Firefox fork focused on privacy, security and freedom.
 - [LMMS](https://github.com/LMMS/lmms/releases) - Digital audio workstation.
 - [Motrix](https://github.com/agalwood/Motrix/releases) - Download manager.
 - [Nextcloud](https://github.com/nextcloud/desktop/releases) - Self-hosted cloud storage.

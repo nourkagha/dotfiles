@@ -145,6 +145,7 @@ A list of my favourite and recommended applications.
 - [Element](https://element.io) - Matrix chat client.
 - [Emacs](https://gnu.org/software/emacs) - Text editor.
 - [Flameshot](https://github.com/flameshot-org/flameshot) - Screenshots.
+- [Firejail](https://github.com/netblue30/firejail) - Security sandbox.
 - [GameHub](https://github.com/tkashkin/GameHub) - Unified gaming library for all games including Steam, GOG, Humble Bundle and itch.io.
 - [GameMode](https://github.com/FeralInteractive/gamemode) - Optimises the system for higher game performance.
 - [GitHub CLI](https://cli.github.com) - GitHub in the terminal.

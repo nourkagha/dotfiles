@@ -138,7 +138,6 @@ A list of my favourite and recommended applications.
 
 - [Alacritty](https://github.com/alacritty/alacritty) - GPU accelerated terminal emulator focused on performance and simplicity.
 - [Atom](https://github.com/atom/atom) - Code editor.
-- [Audacity](https://github.com/audacity/audacity) - Audio editor.
 - [Visual Studio Code](https://github.com/microsoft/vscode) - Code editor.
 - [Dconf Editor](https://gitlab.gnome.org/GNOME/dconf-editor) - GUI editor for GNOME shell settings and configuration.
 - [Discord](https://discord.com) - Community chat platform.

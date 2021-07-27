@@ -255,7 +255,7 @@ Additional and alternative software and applications that I do not currently hav
 
 - [Pop!_OS](https://pop.system76.com)
 - [Pop!_Docs](https://support.system76.com/#pop)
-- [Pop!_Community](https://chat.pop-os.org)
+- [Pop!_Chat](https://chat.pop-os.org)
 - [Pop!_Planet](https://pop-planet.info)
 - [Pop!_OS Reddit](https://reddit.com/r/pop_os)
 - [Pop!_OS Matrix](https://matrix.to/#/#pop_os:matrix.org)

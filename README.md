@@ -210,6 +210,7 @@ Download the following AppImage packages into `~/Applications`:
 - [OpenShot](https://github.com/OpenShot/openshot-qt/releases) - Video editor.
 - [pCloud](https://pcloud.com/download-free-online-cloud-file-storage.html) - Cloud storage.
 - [Raider.IO](https://raider.io/addon) - Raider.IO addon and client.
+- [Revolt](https://github.com/revoltchat/desktop/releases) - Privacy-friendly chat platform.
 - [RuneLite](https://runelite.net) - Old School RuneScape client.
 - [Standard Notes](https://github.com/standardnotes/desktop/releases) - Notes.
 

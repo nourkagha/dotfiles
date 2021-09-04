@@ -221,7 +221,7 @@ Follow the instructions for these packages to install or build from source.
 - [Dropbox](https://dropbox.com/install?os=lnx) - Cloud storage.
 - [Foliate](https://github.com/johnfactotum/foliate) - Ebook reader.
 - [MangoHud](https://github.com/flightlessmango/MangoHud) - Overlay for monitoring FPS, CPU, GPU, RAM, temperatures and more.
-- [MEGA](https://mega.io/sync)- Cloud storage.
+- [MEGA](https://mega.io/sync) - Cloud storage.
 - [MultiMC](https://multimc.org/#Download) - Minecraft launcher for launching and managing of multiple game instances each with their own mods and packs.
 - [Proton GE](https://github.com/GloriousEggroll/proton-ge-custom) - Custom version of Valve's Proton by [GloriousEggroll](https://github.com/GloriousEggroll). Using the [proton-ge-custom-updater](https://github.com/p-mng/proton-ge-custom-updater) submodule, it can also be installed and kept updated by running `proton-ge-custom-updater`.
 - [ProtonVPN](https://protonvpn.com/support/linux-ubuntu-vpn-setup/) - Private and secure VPN with free and paid plans.

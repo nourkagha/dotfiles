@@ -78,10 +78,8 @@ ZSH_CUSTOM="/home/nour/.dotfiles/zsh/custom"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
-	 cargo
 	 golang
 	 rust
-	 rustup
 	 thefuck
 	 vscode
 	 zsh-autosuggestions
@@ -133,3 +131,4 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+fpath+=${ZDOTDIR:-~}/.zsh_functions

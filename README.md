@@ -14,11 +14,9 @@
 
 # dotfiles
 
-My dotfiles are managed by [Dotbot](https://github.com/anishathalye/dotbot) - a simple, lightweight and self-contained tool which bootstraps my files, as a submodule in the repository.
+My dotfiles are managed using [chezmoi](https://chezmoi.io).
 
 ### Zsh
-
-My zsh shell terminal customisation dependencies are also included as submodules.
 
 Framework: [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
@@ -29,86 +27,59 @@ Plugins:
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [z](https://github.com/agkozak/zsh-z)
 
 ## Installation
 
-Clone the repository by passing `--recurse-submodules` to initialise and update all submodules:
+Install [chezmoi](https://www.chezmoi.io/install) and run:
 
-```
-git clone --recurse-submodules https://github.com/nourkagha/dotfiles .dotfiles
-```
-
-Change to the `.dotfiles` directory and run `install`:
-
-```
-cd .dotfiles && ./install
-```
+    chezmoi init --apply nourkagha
 
 Install all [packages](https://github.com/nourkagha/dotfiles#packages):
 
-```
-./packages
-```
-
-To update the submodules, if needed, run the following in the `.dotfiles` directory:
-
-```
-git submodule update --remote
-```
+    ./packages
 
 ## Booting
 
-This is for customising the bootloader and bootsplash during the booting process.
+This is for customising the bootloader and bootsplash during boot.
 
 ### UEFI
 
 Install **rEFInd** as the boot manager.
 
-```
-sudo apt-add-repository ppa:rodsmith/refind
-sudo apt update
-sudo apt install refind
-```
+    sudo apt-add-repository ppa:rodsmith/refind
+    sudo apt update
+    sudo apt install refind
 
 ### Legacy BIOS
 
 Install and run `os-prober` to check for other operating systems.
 
-```
-sudo apt install os-prober
-sudo os-prober
-```
+    sudo apt install os-prober
+    sudo os-prober
 
 Update GRUB.
 
-```
-sudo update-grub
-```
+    sudo update-grub
 
 Install **GRUB Customizer**.
 
-```
-sudo add-apt-repository ppa:danielrichter2007/grub-customizer
-sudo apt update
-sudo apt install grub-customizer
-```
+    sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+    sudo apt update
+    sudo apt install grub-customizer
 
 ### Splash
 
 [Pop!_OS plymouth theme](https://github.com/pop-os/plymouth-theme): Install the `pop-logo` theme for an animated Pop!_OS splash screen after booting.
 
-```
-sudo apt install plymouth-theme-pop-logo
-sudo update-alternatives --config default.plymouth
-```
+    sudo apt install plymouth-theme-pop-logo
+    sudo update-alternatives --config default.plymouth
 
 Select the `pop-logo` theme instead of `pop-basic`.
 
-```
-sudo kernelstub -a splash
-sudo kernelstub -v
-sudo update-initramfs -u
-```
+    sudo kernelstub -a splash
+    sudo kernelstub -v
+    sudo update-initramfs -u
 
 Reboot to apply changes.
 

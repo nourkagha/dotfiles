@@ -1,0 +1,174 @@
+#!/bin/bash
+
+# Update the system
+
+sudo apt update && sudo apt upgrade -y
+flatpak update
+
+# Install and change shell to zsh
+
+sudo apt install -y zsh
+sudo chsh -s $(which zsh)
+
+# Install curl, wget and apt-transport-https
+
+sudo apt install -y curl wget apt-transport-https
+
+# Add 32-bit architecture
+
+sudo dpkg --add-architecture i386
+
+# Add Element
+
+sudo wget -O /usr/share/keyrings/element-io-archive-keyring.gpg https://packages.element.io/debian/element-io-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/element-io-archive-keyring.gpg] https://packages.element.io/debian/ default main" | sudo tee /etc/apt/sources.list.d/element-io.list
+
+# Add GitHub CLI
+
+type -p curl >/dev/null || sudo apt install curl -y
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg \
+&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+
+# Add Signal
+
+wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg
+cat signal-desktop-keyring.gpg | sudo tee -a /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
+echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' | \
+sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
+
+# Add Spotify
+
+curl -sS https://download.spotify.com/debian/pubkey_5E3C45D7B312C643.gpg | sudo apt-key add - 
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+
+# Add Syncthing
+
+sudo curl -o /usr/share/keyrings/syncthing-archive-keyring.gpg https://syncthing.net/release-key.gpg
+echo "deb [signed-by=/usr/share/keyrings/syncthing-archive-keyring.gpg] https://apt.syncthing.net/ syncthing stable" | sudo tee /etc/apt/sources.list.d/syncthing.list
+printf "Package: *\nPin: origin apt.syncthing.net\nPin-Priority: 990\n" | sudo tee /etc/apt/preferences.d/syncthing
+
+# Add Wine
+
+sudo mkdir -pm755 /etc/apt/keyrings
+sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+
+# Add Kisak Mesa PPA and pin (optional):
+# sudo add-apt-repository -y ppa:kisak/kisak-mesa
+# printf "Package: *\nPin: release o=LP-PPA-kisak-kisak-mesa\nPin-Priority: 2000\n" | sudo tee /etc/apt/preferences.d/kisak-mesa
+
+# Update packages
+
+sudo apt update
+
+# Install APT packages
+
+sudo apt install -y \
+alacritty \
+code \
+dconf-editor \
+discord \
+element-desktop \
+emacs \
+exa \
+ffmpeg \
+flameshot \
+firejail \
+gamemode \
+gh \
+github-desktop \
+gufw \
+htop \
+hugo \
+lutris \
+mingw-w64 \
+neofetch \
+obs-studio \
+peek \
+ppa-purge \
+rclone \
+seahorse-nautilus \
+signal-desktop \
+spotify-client \
+stacer \
+steam \
+stow \
+streamlink \
+syncthing \
+timeshift \
+thunderbird \
+transmission \
+v4l2loopback-dkms \
+vim \
+virtualbox \
+vlc
+
+# Install Flatpak packages
+
+flatpak install -y flathub \
+uk.co.ibboard.cawbird \
+org.gnome.Fractal \
+org.gabmus.giara \
+org.gimp.GIMP \
+com.heroicgameslauncher.hgl \
+org.kde.kdenlive \
+io.gitlab.librewolf-community \
+org.gnome.Lollypop \
+net.lutris.Lutris \
+com.mattermost.Desktop \
+org.onionshare.OnionShare \
+com.github.paolostivanin.OTPClient \
+org.prismlauncher.PrismLauncher \
+net.davidotek.pupgui2 \
+org.remmina.Remmina \
+com.github.bleakgrey.tootle \
+com.github.micahflee.torbrowser-launcher
+
+# Install Wine
+
+sudo apt install -y --install-recommends winehq-staging
+
+# Install and run the AppImage daemon
+
+systemctl --user stop appimaged.service || true
+sudo apt-get -y remove appimagelauncher || true
+rm "$HOME"/.local/share/applications/appimage*
+wget -c https://github.com/$(wget -q https://github.com/probonopd/go-appimage/releases/expanded_assets/continuous -O - | grep "appimaged-.*-x86_64.AppImage" | head -n 1 | cut -d '"' -f 2) -P ~/Applications/
+chmod +x ~/Applications/appimaged-*.AppImage
+~/Applications/appimaged-*.AppImage
+
+# Install Rust
+
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+# Install Go
+# Cross-platform installer (experimental):
+# curl -LO https://get.golang.org/$(uname)/go_installer && chmod +x go_installer && ./go_installer && rm go_installer
+
+wget "https://go.dev/dl/$(curl 'https://go.dev/VERSION?m=text').linux-amd64.tar.gz"
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go*.linux-amd64.tar.gz
+
+# Install Python
+
+sudo apt install -y python3
+
+# Install Java
+
+sudo apt install -y default-jdk
+
+# Install nvm and Node.js
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+nvm install node
+
+# Install thefuck zsh plugin
+
+sudo apt install -y python3-dev python3-pip python3-setuptools
+sudo pip3 install thefuck
+
+# Clean up
+
+sudo apt autoremove -y
+sudo apt clean
+flatpak uninstall --unused

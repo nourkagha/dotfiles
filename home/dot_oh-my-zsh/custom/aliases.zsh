@@ -1,5 +1,9 @@
 # My custom aliases and functions
 
+# Replace exa with ls
+
+alias ls='exa'
+
 # Full update and cleanup
 function noups() {
  sudo apt update

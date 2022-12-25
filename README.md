@@ -14,7 +14,7 @@
 
 # dotfiles
 
-My dotfiles, managed with [chezmoi](https://chezmoi.io).
+My dotfiles, managed with [chezmoi](https://github.com/twpayne/dotfiles).
 
 ### Zsh
 

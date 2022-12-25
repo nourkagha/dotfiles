@@ -27,7 +27,6 @@ Plugins:
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 - [zsh-completions](https://github.com/zsh-users/zsh-completions)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-- [z](https://github.com/agkozak/zsh-z)
 
 ## Installation
 

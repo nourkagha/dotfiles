@@ -34,10 +34,6 @@ Install [chezmoi](https://www.chezmoi.io/install) and run:
 
     chezmoi init --apply nourkagha
 
-Install all [packages](https://github.com/nourkagha/dotfiles#packages):
-
-    ./packages
-
 ## Booting
 
 This is for customising the bootloader and bootsplash during boot.

@@ -116,6 +116,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval $(thefuck --alias)
+eval "$(zoxide init zsh)"
 
 # Fix slowness of pastes with zsh plugins
 pasteinit() {

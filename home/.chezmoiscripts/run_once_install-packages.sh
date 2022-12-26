@@ -102,7 +102,8 @@ transmission \
 v4l2loopback-dkms \
 vim \
 virtualbox \
-vlc
+vlc \
+zoxide
 
 # Install Flatpak packages
 

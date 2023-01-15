@@ -9,6 +9,7 @@ function noups() {
  sudo apt update
  sudo apt upgrade -y
  flatpak update -y
+ chezmoi upgrade
  rustup update
  sudo apt autoremove -y
  sudo apt clean

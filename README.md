@@ -178,6 +178,7 @@ Download the following AppImage packages into `~/Applications`:
 Follow the instructions for these packages to install or build from source.
 
 - [Foliate](https://github.com/johnfactotum/foliate) - Ebook reader.
+- [Helix](https://github.com/helix-editor/helix) - Text editor.
 - [MangoHud](https://github.com/flightlessmango/MangoHud) - Overlay for monitoring FPS, CPU, GPU, RAM, temperatures and more.
 - [ProtonVPN](https://protonvpn.com/support/linux-ubuntu-vpn-setup/) - Private and secure VPN with free and paid plans.
 - [Spicetify CLI](https://github.com/khanhas/spicetify-cli) - Spotify custom CSS and themes, using [Pop Dark](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Pop-Dark).

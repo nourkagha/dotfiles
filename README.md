@@ -103,21 +103,17 @@ A list of my favourite and recommended applications.
 ### APT
 
 - [Alacritty](https://github.com/alacritty/alacritty) - GPU accelerated terminal emulator focused on performance and simplicity.
-- [Atom](https://github.com/atom/atom) - Code editor.
 - [Visual Studio Code](https://github.com/microsoft/vscode) - Code editor.
 - [Dconf Editor](https://gitlab.gnome.org/GNOME/dconf-editor) - GUI editor for GNOME shell settings and configuration.
 - [Discord](https://discord.com) - Community chat platform.
 - [Element](https://element.io) - Matrix chat client.
-- [Emacs](https://gnu.org/software/emacs) - Text editor.
 - [Flameshot](https://github.com/flameshot-org/flameshot) - Screenshots.
 - [Firejail](https://github.com/netblue30/firejail) - Security sandbox.
-- [GameHub](https://github.com/tkashkin/GameHub) - Unified gaming library for all games including Steam, GOG, Humble Bundle and itch.io.
 - [GameMode](https://github.com/FeralInteractive/gamemode) - Optimises the system for higher game performance.
 - [GitHub CLI](https://cli.github.com) - GitHub in the terminal.
 - [GitHub Desktop](https://desktop.github.com) - GitHub desktop client.
 - [Gufw](https://github.com/costales/gufw) - GUI for the firewall.
 - [htop](https://github.com/htop-dev/htop) - CLI interactive process viewer and system monitor.
-- [Lutris](https://lutris.net) - Open gaming platform including GOG, Steam, Battle.net, Origin, Uplay and many other sources.
 - [neofetch](https://github.com/dylanaraps/neofetch) - CLI system information tool.
 - [OBS Studio](https://github.com/obsproject/obs-studio) - Live streaming and screen recording.
 - [Peek](https://github.com/phw/peek) - GIF recorder.
@@ -132,23 +128,23 @@ A list of my favourite and recommended applications.
 - [Timeshift](https://github.com/teejee2008/timeshift) - System backup and restore.
 - [Thunderbird](https://thunderbird.net) - Mail.
 - [Transmission](https://github.com/transmission/transmission) - Torrent client.
-- [Vim](https://github.com/vim/vim) - Text editor.
 - [VirtualBox](https://virtualbox.org) - Virtual machines.
 - [VLC](https://github.com/videolan/vlc) - Video and audio player.
 
 ### Flatpak
 
-- [Cawbird](https://flathub.org/apps/details/uk.co.ibboard.cawbird) - Twitter client.
-- [Fractal](https://flathub.org/apps/details/org.gnome.Fractal) - Matrix client.
-- [Giara](https://flathub.org/apps/details/org.gabmus.giara) - Reddit client.
 - [GIMP](https://flathub.org/apps/details/org.gimp.GIMP) - Photo editor.
+- [Heroic Games Launcher](https://flathub.org/apps/details/com.heroicgameslauncher.hgl) - GOG and Epic Games launcher.
+- [Kdenlive](https://flathub.org/apps/details/org.kde.kdenlive) - Video editor.
 - [LibreWolf](https://flathub.org/apps/details/io.gitlab.librewolf-community) - Firefox fork focused on privacy, security and freedom.
 - [Lollypop](https://flathub.org/apps/details/org.gnome.Lollypop) - Music player.
+- [Lutris](https://flathub.org/apps/details/net.lutris.Lutris) - Open gaming platform including GOG, Steam, Battle.net, Origin, Uplay and many other sources.
 - [Mattermost](https://flathub.org/apps/details/com.mattermost.Desktop) - Collaboration chat platform.
 - [OnionShare](https://flathub.org/apps/details/org.onionshare.OnionShare) - Secure and anonymous file sharing.
 - [OTPClient](https://flathub.org/apps/details/com.github.paolostivanin.OTPClient) - OTP authenticator.
+- [Prism Launcher](https://flathub.org/apps/details/org.prismlauncher.PrismLauncher) - Minecraft launcher to manage multiple installations at once.
+- [ProtonUp-Qt](https://flathub.org/apps/details/net.davidotek.pupgui2) - GUI to install and manage Wine and Proton compatibility tools (such as Wine-GE and Proton-GE) for Steam and Lutris.
 - [Remmina](https://flathub.org/apps/details/org.remmina.Remmina) - Remote desktop client.
-- [Tootle](https://www.flathub.org/apps/details/com.github.bleakgrey.tootle) - Mastodon client.
 - [Tor Browser](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher) - Secure and anonymous browser.
 
 ### AppImage
@@ -168,13 +164,10 @@ Download the following AppImage packages into `~/Applications`:
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube/releases) - Private YouTube client.
 - [Inkscape](https://inkscape.org/releases) - Vector graphics editor.
 - [Joplin](https://github.com/laurent22/joplin/releases) - Notes.
-- [Kdenlive](https://kdenlive.org/en/download) - Video editor.
 - [KeePassXC](https://github.com/keepassxreboot/keepassxc/releases) - Offline password manager.
 - [LMMS](https://github.com/LMMS/lmms/releases) - Digital audio workstation.
 - [Motrix](https://github.com/agalwood/Motrix/releases) - Download manager.
 - [Nextcloud](https://github.com/nextcloud/desktop/releases) - Self-hosted cloud storage.
-- [OpenShot](https://github.com/OpenShot/openshot-qt/releases) - Video editor.
-- [pCloud](https://pcloud.com/download-free-online-cloud-file-storage.html) - Cloud storage.
 - [Raider.IO](https://raider.io/addon) - Raider.IO addon and client.
 - [Revolt](https://github.com/revoltchat/desktop/releases) - Privacy-friendly chat platform.
 - [RuneLite](https://runelite.net) - Old School RuneScape client.
@@ -184,16 +177,11 @@ Download the following AppImage packages into `~/Applications`:
 
 Follow the instructions for these packages to install or build from source.
 
-- [Dropbox](https://dropbox.com/install?os=lnx) - Cloud storage.
 - [Foliate](https://github.com/johnfactotum/foliate) - Ebook reader.
 - [MangoHud](https://github.com/flightlessmango/MangoHud) - Overlay for monitoring FPS, CPU, GPU, RAM, temperatures and more.
-- [MEGA](https://mega.io/sync) - Cloud storage.
-- [MultiMC](https://multimc.org/#Download) - Minecraft launcher for launching and managing of multiple game instances each with their own mods and packs.
-- [Proton GE](https://github.com/GloriousEggroll/proton-ge-custom) - Custom version of Valve's Proton by [GloriousEggroll](https://github.com/GloriousEggroll). Using the [proton-ge-custom-updater](https://github.com/p-mng/proton-ge-custom-updater) submodule, it can also be installed and kept updated by running `proton-ge-custom-updater`.
 - [ProtonVPN](https://protonvpn.com/support/linux-ubuntu-vpn-setup/) - Private and secure VPN with free and paid plans.
 - [Spicetify CLI](https://github.com/khanhas/spicetify-cli) - Spotify custom CSS and themes, using [Pop Dark](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Pop-Dark).
 - [VeraCrypt](https://github.com/veracrypt/VeraCrypt) - Disk encryption.
-- [VSCodium](https://github.com/VSCodium/vscodium) - Code editor.
 
 ## Software
 
@@ -205,7 +193,6 @@ Additional and alternative software and applications that I do not currently hav
 - [Bash-it](https://github.com/Bash-it/bash-it) - Bash customisation framework.
 - [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord) - Discord custom CSS and themes.
 - [Jellyfin](https://github.com/jellyfin/jellyfin) - Stream to any device from a self-hosted media server.
-- [LessPass](https://github.com/lesspass/lesspass) - Stateless password manager.
 - [ncdu](https://dev.yorhel.nl/ncdu) - CLI disk usage analyzer.
 - [NoiseTorch](https://github.com/lawl/NoiseTorch) - Real-time microphone noise suppression.
 - [Oh My Bash](https://github.com/ohmybash/oh-my-bash) - Bash customisation framework.

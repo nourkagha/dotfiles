@@ -54,9 +54,9 @@ sudo mkdir -pm755 /etc/apt/keyrings
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
 
-# Add Kisak Mesa PPA and pin (optional):
-# sudo add-apt-repository -y ppa:kisak/kisak-mesa
-# printf "Package: *\nPin: release o=LP-PPA-kisak-kisak-mesa\nPin-Priority: 2000\n" | sudo tee /etc/apt/preferences.d/kisak-mesa
+# Add Kisak Mesa PPA and pin:
+sudo add-apt-repository -y ppa:kisak/kisak-mesa
+printf "Package: *\nPin: release o=LP-PPA-kisak-kisak-mesa\nPin-Priority: 2000\n" | sudo tee /etc/apt/preferences.d/kisak-mesa
 
 # Update packages
 
@@ -70,7 +70,6 @@ code \
 dconf-editor \
 discord \
 element-desktop \
-emacs \
 exa \
 ffmpeg \
 flameshot \
@@ -81,7 +80,6 @@ github-desktop \
 gufw \
 htop \
 hugo \
-lutris \
 mingw-w64 \
 neofetch \
 obs-studio \
@@ -100,7 +98,6 @@ timeshift \
 thunderbird \
 transmission \
 v4l2loopback-dkms \
-vim \
 virtualbox \
 vlc \
 zoxide
@@ -108,9 +105,6 @@ zoxide
 # Install Flatpak packages
 
 flatpak install -y flathub \
-uk.co.ibboard.cawbird \
-org.gnome.Fractal \
-org.gabmus.giara \
 org.gimp.GIMP \
 com.heroicgameslauncher.hgl \
 org.kde.kdenlive \
@@ -123,7 +117,6 @@ com.github.paolostivanin.OTPClient \
 org.prismlauncher.PrismLauncher \
 net.davidotek.pupgui2 \
 org.remmina.Remmina \
-com.github.bleakgrey.tootle \
 com.github.micahflee.torbrowser-launcher
 
 # Install Wine
@@ -167,6 +160,19 @@ nvm install node
 
 sudo apt install -y python3-dev python3-pip python3-setuptools
 sudo pip3 install thefuck
+
+# Install Helix editor
+
+git clone https://github.com/helix-editor/helix
+cd helix
+cargo install --locked --path helix-term
+ln -s $PWD/runtime ~/.config/helix/runtime
+cp contrib/Helix.desktop ~/.local/share/applications
+cd ~
+sed -i "s|Exec=hx %F|Exec=alacritty hx %F|g" ~/.local/share/applications/Helix.desktop
+sed -i "s|Terminal=true|Terminal=false|g" ~/.local/share/applications/Helix.desktop
+hx --grammar fetch
+hx --grammar build
 
 # Clean up
 

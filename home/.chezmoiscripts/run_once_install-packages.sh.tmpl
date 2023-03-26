@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Prevent automatically running the script on the current host
+
+{{- if ne .chezmoi.hostname "pop-os" }}
+
 # Update the system
 
 sudo apt update && sudo apt upgrade -y
@@ -81,6 +85,7 @@ gufw \
 htop \
 hugo \
 mingw-w64 \
+nala \
 neofetch \
 obs-studio \
 peek \
@@ -179,3 +184,5 @@ hx --grammar build
 sudo apt autoremove -y
 sudo apt clean
 flatpak uninstall --unused
+
+{{- end }}

@@ -5,13 +5,14 @@
 alias ls='exa'
 
 # Full update and cleanup
+
 function noups() {
- sudo apt update
- sudo apt upgrade -y
+ sudo nala update
+ sudo nala upgrade -y
  flatpak update -y
  chezmoi upgrade
  rustup update
- sudo apt autoremove -y
- sudo apt clean
+ sudo nala autoremove -y
+ sudo nala clean
  flatpak uninstall --unused
 }

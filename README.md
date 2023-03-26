@@ -114,6 +114,7 @@ A list of my favourite and recommended applications.
 - [GitHub Desktop](https://desktop.github.com) - GitHub desktop client.
 - [Gufw](https://github.com/costales/gufw) - GUI for the firewall.
 - [htop](https://github.com/htop-dev/htop) - CLI interactive process viewer and system monitor.
+- [Nala](https://gitlab.com/volian/nala) - Frontend and wrapper for the APT package manager with parallel downloads.
 - [neofetch](https://github.com/dylanaraps/neofetch) - CLI system information tool.
 - [OBS Studio](https://github.com/obsproject/obs-studio) - Live streaming and screen recording.
 - [Peek](https://github.com/phw/peek) - GIF recorder.

@@ -7,7 +7,6 @@ alias ls='exa'
 # Full update and cleanup
 
 function noups() {
- sudo nala update
  sudo nala upgrade -y
  flatpak update -y
  chezmoi upgrade

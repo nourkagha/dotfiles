@@ -179,6 +179,17 @@ sed -i "s|Terminal=true|Terminal=false|g" ~/.local/share/applications/Helix.desk
 hx --grammar fetch
 hx --grammar build
 
+# Install Nautilus Open Any Terminal extension
+
+sudo apt install python3-nautilus -y
+pip install --user nautilus-open-any-terminal
+nautilus -q
+glib-compile-schemas ~/.local/share/glib-2.0/schemas/
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal keybindings '<Ctrl><Alt>t'
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal new-tab true
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal flatpak system
+
 # Clean up
 
 sudo apt autoremove -y

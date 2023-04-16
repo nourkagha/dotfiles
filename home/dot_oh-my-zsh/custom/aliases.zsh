@@ -11,6 +11,7 @@ function noups() {
  flatpak update -y
  chezmoi upgrade
  rustup update
+ fisher update
  sudo restic self-update
  sudo nala autoremove -y
  sudo nala clean

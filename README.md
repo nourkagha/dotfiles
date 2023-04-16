@@ -117,6 +117,7 @@ A list of my favourite and recommended applications.
 - [GitHub Desktop](https://desktop.github.com) - GitHub desktop client.
 - [Gufw](https://github.com/costales/gufw) - GUI for the firewall.
 - [htop](https://github.com/htop-dev/htop) - CLI interactive process viewer and system monitor.
+- [mpv](https://github.com/mpv-player/mpv) - CLI video player.
 - [Nala](https://gitlab.com/volian/nala) - Frontend and wrapper for the APT package manager with parallel downloads.
 - [neofetch](https://github.com/dylanaraps/neofetch) - CLI system information tool.
 - [OBS Studio](https://github.com/obsproject/obs-studio) - Live streaming and screen recording.
@@ -138,6 +139,7 @@ A list of my favourite and recommended applications.
 
 ### Flatpak
 
+- [Celluloid](https://github.com/celluloid-player/celluloid) - GTK+ frontend for MPV video player.
 - [GIMP](https://flathub.org/apps/details/org.gimp.GIMP) - Photo editor.
 - [Heroic Games Launcher](https://flathub.org/apps/details/com.heroicgameslauncher.hgl) - GOG and Epic Games launcher.
 - [Kdenlive](https://flathub.org/apps/details/org.kde.kdenlive) - Video editor.

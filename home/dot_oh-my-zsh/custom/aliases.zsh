@@ -1,7 +1,7 @@
 # My custom aliases and functions
 
-# Replace exa with ls
-
+alias bat='batcat'
+alias fd='fdfind'
 alias ls='exa'
 
 # Full update and cleanup

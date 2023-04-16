@@ -103,10 +103,13 @@ A list of my favourite and recommended applications.
 ### APT
 
 - [Alacritty](https://github.com/alacritty/alacritty) - GPU accelerated terminal emulator focused on performance and simplicity.
+- [bat](https://github.com/sharkdp/bat) - `cat` replacement with syntax highlighting, git integration and more features.
 - [Visual Studio Code](https://github.com/microsoft/vscode) - Code editor.
 - [Dconf Editor](https://gitlab.gnome.org/GNOME/dconf-editor) - GUI editor for GNOME shell settings and configuration.
 - [Discord](https://discord.com) - Community chat platform.
 - [Element](https://element.io) - Matrix chat client.
+- [exa](https://github.com/ogham/exa) - Modern replacement for `ls` with more features and better defaults.
+- [fd](https://github.com/sharkdp/fd) - Faster and more user-friendly alternative to `find`.
 - [Flameshot](https://github.com/flameshot-org/flameshot) - Screenshots.
 - [Firejail](https://github.com/netblue30/firejail) - Security sandbox.
 - [GameMode](https://github.com/FeralInteractive/gamemode) - Optimises the system for higher game performance.
@@ -118,6 +121,7 @@ A list of my favourite and recommended applications.
 - [neofetch](https://github.com/dylanaraps/neofetch) - CLI system information tool.
 - [OBS Studio](https://github.com/obsproject/obs-studio) - Live streaming and screen recording.
 - [Peek](https://github.com/phw/peek) - GIF recorder.
+- [Restic](https://github.com/restic/restic) - Fast, efficient, secure and cross-platform backup program.
 - [Rclone](https://github.com/rclone/rclone) - CLI/GUI tool based on rsync to upload, sync and encrypt files to any cloud provider.
 - [Signal](https://signal.org/download) - Private messenger.
 - [Spotify](https://spotify.com/us/download/linux) - Music streaming.

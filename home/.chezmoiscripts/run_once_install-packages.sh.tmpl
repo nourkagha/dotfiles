@@ -9,9 +9,9 @@
 sudo apt update && sudo apt upgrade -y
 flatpak update
 
-# Install and change shell to zsh
+# Install zsh and fish and change shell to zsh
 
-sudo apt install -y zsh
+sudo apt install -y zsh fish
 sudo chsh -s $(which zsh)
 
 # Install curl, wget and apt-transport-https
@@ -173,7 +173,7 @@ sudo pip3 install thefuck
 
 # Install Rust packages
 
-cargo install git-delta
+cargo install --locked git-delta starship
 
 # Install Helix editor
 

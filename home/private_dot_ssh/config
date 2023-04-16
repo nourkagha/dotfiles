@@ -1,0 +1,5 @@
+Host cloud
+    HostName cloud.agha.dev
+    User nour
+    ServerAliveInterval 60
+    ServerAliveCountMax 240

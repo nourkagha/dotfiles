@@ -32,6 +32,7 @@ $docker_context\
 """
 
 right_format = """
+$character\
 [](white)\
 $time\
 [](white)\
@@ -61,6 +62,10 @@ disabled = false
 time_format = "%R"
 style = "bold bg:white fg:pop_blue"
 format = '[ $time  ]($style)'
+
+[character]
+success_symbol = '[󰸞](bold green)'
+error_symbol = '[✗](bold red)'
 
 [directory]
 style = "bold bg:pop_blue"

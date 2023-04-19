@@ -10,7 +10,7 @@
 <a href="https://github.com/nourkagha/dotfiles/commits"><img src="https://img.shields.io/github/last-commit/nourkagha/dotfiles?label=updated&style=for-the-badge" alt="Updated"></a>
 </p>
 
-![image](https://i.imgur.com/5XWFVcF.png)
+![Pop Desktop](https://user-images.githubusercontent.com/50773468/233222403-ce822fac-375e-4113-9014-72455ecc4099.png)
 
 # dotfiles
 
@@ -108,6 +108,7 @@ A list of my favourite and recommended applications.
 - [Element](https://element.io) - Matrix chat client.
 - [exa](https://github.com/ogham/exa) - Modern replacement for `ls` with more features and better defaults.
 - [fd](https://github.com/sharkdp/fd) - Faster and more user-friendly alternative to `find`.
+- [fish](https://github.com/fish-shell/fish-shell) - Friendly interactive shell.
 - [Flameshot](https://github.com/flameshot-org/flameshot) - Screenshots.
 - [Firejail](https://github.com/netblue30/firejail) - Security sandbox.
 - [GameMode](https://github.com/FeralInteractive/gamemode) - Optimises the system for higher game performance.

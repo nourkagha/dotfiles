@@ -33,6 +33,7 @@ $docker_context\
 
 right_format = """
 $character\
+$cmd_duration\
 [](white)\
 $time\
 [](white)\
@@ -62,6 +63,10 @@ disabled = false
 time_format = "%R"
 style = "bold bg:white fg:pop-blue"
 format = '[ $time  ]($style)'
+
+[cmd_duration]
+min_time = 500
+format = '[$duration ](bold yellow)'
 
 [character]
 success_symbol = '[󰸞](bold green)'

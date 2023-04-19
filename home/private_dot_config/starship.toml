@@ -2,12 +2,12 @@ format = """
 [](white)\
 $os\
 $username\
-[](bg:pop_blue fg:white)\
+[](bg:pop-blue fg:white)\
 $directory\
-[](bg:white fg:pop_blue)\
+[](bg:white fg:pop-blue)\
 $git_branch\
 $git_status\
-[](bg:pop_blue fg:white)\
+[](bg:pop-blue fg:white)\
 $c\
 $dart\
 $elixir\
@@ -26,7 +26,7 @@ $rlang\
 $ruby\
 $rust\
 $scala\
-[](bg:white fg:pop_blue)\
+[](bg:white fg:pop-blue)\
 $docker_context\
 [ ](fg:white)\
 """
@@ -43,24 +43,24 @@ add_newline = false
 palette = "pop"
 
 [palettes.pop]
-pop_blue = "#48B9C7"
+pop-blue = "#48B9C7"
 white = "#FFFFFF"
 
 [os]
-style = "bg:white fg:pop_blue"
+style = "bg:white fg:pop-blue"
 disabled = false
 
 [username]
 show_always = false
-style_user = "bold bg:white fg:pop_blue"
-style_root = "bold bg:white fg:pop_blue"
+style_user = "bold bg:white fg:pop-blue"
+style_root = "bold bg:white fg:pop-blue"
 format = '[$user ]($style)'
 disabled = false
 
 [time]
 disabled = false
 time_format = "%R"
-style = "bold bg:white fg:pop_blue"
+style = "bold bg:white fg:pop-blue"
 format = '[ $time  ]($style)'
 
 [character]
@@ -68,7 +68,7 @@ success_symbol = '[󰸞](bold green)'
 error_symbol = '[✗](bold red)'
 
 [directory]
-style = "bold bg:pop_blue"
+style = "bold bg:pop-blue"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
@@ -78,81 +78,81 @@ read_only = " "
 # similar to mapped_locations in Oh My Posh:
 [directory.substitutions]
 "~" = " ~"
-"Applications" = " "
+"Applications" = "󱕷 "
 "Books" = " "
 "Documents" = " "
 "Downloads" = " "
 "Music" = " "
 "Pictures" = " "
-"Projects" = " "
+"Projects" = " "
 
 [c]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [dart]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol $context ]($style) $path'
 
 [git_branch]
 symbol = ""
-style = "bold bg:white fg:pop_blue"
+style = "bold bg:white fg:pop-blue"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:white fg:pop_blue"
+style = "bg:white fg:pop-blue"
 format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [gradle]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [kotlin]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [lua]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [os.symbols]
@@ -185,7 +185,7 @@ NixOS = " "
 OpenBSD = " "
 openSUSE = " "
 OracleLinux = " "
-Pop = " " # color: pop_blue (#48B9C7)
+Pop = " " # color: pop-blue (#48B9C7)
 Raspbian = " "
 Redhat = " "
 RedHatEnterprise = " "
@@ -198,25 +198,25 @@ Windows = " "
 
 [python]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [rlang]
 symbol = "ﳒ "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [ruby]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'
 
 [scala]
 symbol = " "
-style = "bg:pop_blue"
+style = "bg:pop-blue"
 format = '[ $symbol ($version) ]($style)'

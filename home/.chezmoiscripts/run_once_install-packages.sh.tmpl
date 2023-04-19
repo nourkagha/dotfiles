@@ -9,19 +9,17 @@
 sudo apt update && sudo apt upgrade -y
 flatpak update
 
-# Install shells and set login shell to zsh
-
-sudo apt install -y zsh fish
-chsh -s $(which zsh)
-
-# Install fisher
-
-fish
-curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
-
 # Install curl, wget and apt-transport-https
 
 sudo apt install -y curl wget apt-transport-https
+
+# Install fonts
+
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts
+curl -fLo "Fira Code Regular Nerd Font Complete Windows Compatible.ttf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/FiraCode/Regular/complete/Fira%20Code%20Regular%20Nerd%20Font%20Complete%20Windows%20Compatible.ttf
+curl -fLo "Roboto Mono Nerd Font Complete Windows Compatible.ttf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/RobotoMono/Regular/complete/Roboto%20Mono%20Nerd%20Font%20Complete%20Windows%20Compatible.ttf
+cd ~
 
 # Add 32-bit architecture
 
@@ -83,6 +81,7 @@ element-desktop \
 exa \
 fd-find \
 ffmpeg \
+fish \
 flameshot \
 firejail \
 gamemode \

@@ -20,7 +20,7 @@ My dotfiles, managed with :house: [chezmoi](https://github.com/twpayne/chezmoi).
 
 Emulator: :computer: [Alacritty](https://github.com/alacritty/alacritty)
 
-Shell: :fish: [fish](https://github.com/fish-shell/fish-shell)
+Shell: :fish: [Fish](https://github.com/fish-shell/fish-shell)
 
 Prompt: :rocket: [Starship](https://github.com/starship/starship)
 

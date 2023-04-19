@@ -74,17 +74,17 @@ truncation_length = 3
 truncation_symbol = "…/"
 read_only = " "
 
-# Here is how you can shorten some long paths by text replacement
-# similar to mapped_locations in Oh My Posh:
 [directory.substitutions]
 "~" = " ~"
-"Applications" = "󱕷 "
+"Applications" = "󰙵 "
 "Books" = " "
 "Documents" = " "
 "Downloads" = " "
+"Games" = " "
 "Music" = " "
 "Pictures" = " "
-"Projects" = " "
+"Projects" = "󰈮 "
+"Videos" = " "
 
 [c]
 symbol = " "

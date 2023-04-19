@@ -1,3 +1,3 @@
 #!/bin/bash
 
-mkdir {Applications,Books,Projects,.themes}
+mkdir {Applications,Books,Games,Projects,.themes}

@@ -16,6 +16,12 @@
 
 My dotfiles, managed with :house: [chezmoi](https://github.com/twpayne/chezmoi).
 
+## Installation
+
+Install [`chezmoi`](https://www.chezmoi.io/install) and run:
+
+    chezmoi init --apply nourkagha
+
 ## Terminal
 
 Emulator: :computer: [Alacritty](https://github.com/alacritty/alacritty)
@@ -25,58 +31,6 @@ Shell: :fish: [Fish](https://github.com/fish-shell/fish-shell)
 Prompt: :rocket: [Starship](https://github.com/starship/starship)
 
 Plugins: :zap: [Fisher](https://github.com/jorgebucaran/fisher)
-
-## Installation
-
-Install [`chezmoi`](https://www.chezmoi.io/install) and run:
-
-    chezmoi init --apply nourkagha
-
-## Booting
-
-This is for customising the bootloader and bootsplash during boot.
-
-### UEFI
-
-Install **rEFInd** as the boot manager.
-
-    sudo apt-add-repository ppa:rodsmith/refind
-    sudo apt update
-    sudo apt install refind
-
-### Legacy BIOS
-
-Install and run `os-prober` to check for other operating systems.
-
-    sudo apt install os-prober
-    sudo os-prober
-
-Update GRUB.
-
-    sudo update-grub
-
-Install **GRUB Customizer**.
-
-    sudo add-apt-repository ppa:danielrichter2007/grub-customizer
-    sudo apt update
-    sudo apt install grub-customizer
-
-### Splash
-
-[Pop!_OS plymouth theme](https://github.com/pop-os/plymouth-theme): Install the `pop-logo` theme for an animated Pop!_OS splash screen after booting.
-
-    sudo apt install plymouth-theme-pop-logo
-    sudo update-alternatives --config default.plymouth
-
-Select the `pop-logo` theme instead of `pop-basic`.
-
-    sudo kernelstub -a splash
-    sudo kernelstub -v
-    sudo update-initramfs -u
-
-Reboot to apply changes.
-
-*Note that this theme may slightly increase boot times.*
 
 ## Desktop Environment
 

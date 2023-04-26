@@ -69,6 +69,7 @@ A list of my favourite and recommended applications.
 - [GitHub CLI](https://cli.github.com) - GitHub in the terminal.
 - [GitHub Desktop](https://desktop.github.com) - GitHub desktop client.
 - [Gufw](https://github.com/costales/gufw) - GUI for the firewall.
+- [Helix](https://github.com/helix-editor/helix) - Modal text editor.
 - [htop](https://github.com/htop-dev/htop) - CLI interactive process viewer and system monitor.
 - [mpv](https://github.com/mpv-player/mpv) - CLI video player.
 - [Nala](https://gitlab.com/volian/nala) - Frontend and wrapper for the APT package manager with parallel downloads.

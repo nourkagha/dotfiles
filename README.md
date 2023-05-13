@@ -94,19 +94,20 @@ A list of my favourite and recommended applications.
 ### Flatpak
 
 - [Celluloid](https://github.com/celluloid-player/celluloid) - GTK+ frontend for MPV video player.
-- [GIMP](https://flathub.org/apps/details/org.gimp.GIMP) - Photo editor.
-- [Heroic Games Launcher](https://flathub.org/apps/details/com.heroicgameslauncher.hgl) - GOG and Epic Games launcher.
-- [Kdenlive](https://flathub.org/apps/details/org.kde.kdenlive) - Video editor.
-- [LibreWolf](https://flathub.org/apps/details/io.gitlab.librewolf-community) - Firefox fork focused on privacy, security and freedom.
-- [Lollypop](https://flathub.org/apps/details/org.gnome.Lollypop) - Music player.
-- [Lutris](https://flathub.org/apps/details/net.lutris.Lutris) - Open gaming platform including GOG, Steam, Battle.net, Origin, Uplay and many other sources.
-- [Mattermost](https://flathub.org/apps/details/com.mattermost.Desktop) - Collaboration chat platform.
-- [OnionShare](https://flathub.org/apps/details/org.onionshare.OnionShare) - Secure and anonymous file sharing.
-- [OTPClient](https://flathub.org/apps/details/com.github.paolostivanin.OTPClient) - OTP authenticator.
-- [Prism Launcher](https://flathub.org/apps/details/org.prismlauncher.PrismLauncher) - Minecraft launcher to manage multiple installations at once.
-- [ProtonUp-Qt](https://flathub.org/apps/details/net.davidotek.pupgui2) - GUI to install and manage Wine and Proton compatibility tools (such as Wine-GE and Proton-GE) for Steam and Lutris.
-- [Remmina](https://flathub.org/apps/details/org.remmina.Remmina) - Remote desktop client.
-- [Tor Browser](https://flathub.org/apps/details/com.github.micahflee.torbrowser-launcher) - Secure and anonymous browser.
+- [GIMP](https://flathub.org/apps/org.gimp.GIMP) - Photo editor.
+- [Heroic Games Launcher](https://flathub.org/apps/com.heroicgameslauncher.hgl) - GOG and Epic Games launcher.
+- [Kdenlive](https://flathub.org/apps/org.kde.kdenlive) - Video editor.
+- [LibreWolf](https://flathub.org/apps/io.gitlab.librewolf-community) - Firefox fork focused on privacy, security and freedom.
+- [Lollypop](https://flathub.org/apps/org.gnome.Lollypop) - Music player.
+- [Lutris](https://flathub.org/apps/net.lutris.Lutris) - Open gaming platform including GOG, Steam, Battle.net, Origin, Uplay and many other sources.
+- [Mattermost](https://flathub.org/apps/com.mattermost.Desktop) - Collaboration chat platform.
+- [OnionShare](https://flathub.org/apps/org.onionshare.OnionShare) - Secure and anonymous file sharing.
+- [OTPClient](https://flathub.org/apps/com.github.paolostivanin.OTPClient) - OTP authenticator.
+- [Prism Launcher](https://flathub.org/apps/org.prismlauncher.PrismLauncher) - Minecraft launcher to manage multiple installations at once.
+- [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2) - GUI to install and manage Wine and Proton compatibility tools (such as Wine-GE and Proton-GE) for Steam and Lutris.
+- [Remmina](https://flathub.org/apps/org.remmina.Remmina) - Remote desktop client.
+- [Revolt](https://flathub.org/apps/chat.revolt.RevoltDesktop) - Privacy-friendly chat platform.
+- [Tor Browser](https://flathub.org/apps/com.github.micahflee.torbrowser-launcher) - Secure and anonymous browser.
 
 ### AppImage
 
@@ -130,7 +131,6 @@ Download the following AppImage packages into `~/Applications`:
 - [Motrix](https://github.com/agalwood/Motrix/releases) - Download manager.
 - [Nextcloud](https://github.com/nextcloud/desktop/releases) - Self-hosted cloud storage.
 - [Raider.IO](https://raider.io/addon) - Raider.IO addon and client.
-- [Revolt](https://github.com/revoltchat/desktop/releases) - Privacy-friendly chat platform.
 - [RuneLite](https://runelite.net) - Old School RuneScape client.
 - [Standard Notes](https://github.com/standardnotes/desktop/releases) - Notes.
 

@@ -94,6 +94,7 @@ A list of my favourite and recommended applications.
 
 - [Bottles](https://flathub.org/apps/com.usebottles.bottles) - GUI to manage Wine prefixes and install and run Windows software.
 - [Celluloid](https://flathub.org/apps/io.github.celluloid_player.Celluloid) - GTK+ frontend for MPV video player.
+- [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal) - GUI to review and modify Flatpak permissions.
 - [GIMP](https://flathub.org/apps/org.gimp.GIMP) - Photo editor.
 - [Heroic Games Launcher](https://flathub.org/apps/com.heroicgameslauncher.hgl) - GOG and Epic Games launcher.
 - [Kdenlive](https://flathub.org/apps/org.kde.kdenlive) - Video editor.

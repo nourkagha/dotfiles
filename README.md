@@ -31,6 +31,8 @@ Prompt: :rocket: [Starship](https://github.com/starship/starship)
 
 Plugins: :zap: [Fisher](https://github.com/jorgebucaran/fisher)
 
+Editor: :dna: [Helix](https://github.com/helix-editor/helix)
+
 ## Desktop Environment
 
 ### GNOME Extensions

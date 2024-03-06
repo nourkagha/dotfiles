@@ -61,7 +61,7 @@ A list of my favourite and recommended applications.
 - [Dconf Editor](https://gitlab.gnome.org/GNOME/dconf-editor) - GUI editor for GNOME shell settings and configuration.
 - [Discord](https://discord.com) - Community chat platform.
 - [Element](https://element.io) - Matrix chat client.
-- [exa](https://github.com/ogham/exa) - Modern replacement for `ls` with more features and better defaults.
+- [eza](https://github.com/eza-community/eza) - Modern replacement for `ls` with more features and better defaults.
 - [fd](https://github.com/sharkdp/fd) - Faster and more user-friendly alternative to `find`.
 - [fish](https://github.com/fish-shell/fish-shell) - Friendly interactive shell.
 - [Flameshot](https://github.com/flameshot-org/flameshot) - Screenshots.

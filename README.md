@@ -61,17 +61,18 @@ A list of my favourite and recommended applications.
 - [Dconf Editor](https://gitlab.gnome.org/GNOME/dconf-editor) - GUI editor for GNOME shell settings and configuration.
 - [Discord](https://discord.com) - Community chat platform.
 - [Element](https://element.io) - Matrix chat client.
-- [eza](https://github.com/eza-community/eza) - Modern replacement for `ls` with more features and better defaults.
 - [fd](https://github.com/sharkdp/fd) - Faster and more user-friendly alternative to `find`.
 - [fish](https://github.com/fish-shell/fish-shell) - Friendly interactive shell.
 - [Flameshot](https://github.com/flameshot-org/flameshot) - Screenshots.
 - [Firejail](https://github.com/netblue30/firejail) - Security sandbox.
+- [fzf](https://github.com/junegunn/fzf) - CLI fuzzy finder.
 - [GameMode](https://github.com/FeralInteractive/gamemode) - Optimises the system for higher game performance.
 - [GitHub CLI](https://cli.github.com) - GitHub in the terminal.
 - [GitHub Desktop](https://desktop.github.com) - GitHub desktop client.
 - [Gufw](https://github.com/costales/gufw) - GUI for the firewall.
 - [Helix](https://github.com/helix-editor/helix) - Modal text editor.
 - [htop](https://github.com/htop-dev/htop) - CLI interactive process viewer and system monitor.
+- [Hugo](https://github.com/gohugoio/hugo) - Static site generator written in Go.
 - [mpv](https://github.com/mpv-player/mpv) - CLI video player.
 - [Nala](https://gitlab.com/volian/nala) - Frontend and wrapper for the APT package manager with parallel downloads.
 - [neofetch](https://github.com/dylanaraps/neofetch) - CLI system information tool.
@@ -91,6 +92,7 @@ A list of my favourite and recommended applications.
 - [Transmission](https://github.com/transmission/transmission) - Torrent client.
 - [VirtualBox](https://virtualbox.org) - Virtual machines.
 - [VLC](https://github.com/videolan/vlc) - Video and audio player.
+- [zoxide](https://github.com/ajeetdsouza/zoxide) - Smarter cd command.
 
 ### Flatpak
 

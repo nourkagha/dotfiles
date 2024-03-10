@@ -13,3 +13,6 @@ zoxide init fish | source
 
 # Rust
 fish_add_path $HOME/.cargo/bin
+
+# Go
+fish_add_path /usr/local/go/bin

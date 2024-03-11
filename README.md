@@ -144,7 +144,6 @@ Download the following AppImage packages into `~/Applications`:
 Follow the instructions for these packages to install or build from source.
 
 - [Foliate](https://github.com/johnfactotum/foliate) - Ebook reader.
-- [Helix](https://github.com/helix-editor/helix) - Text editor.
 - [MangoHud](https://github.com/flightlessmango/MangoHud) - Overlay for monitoring FPS, CPU, GPU, RAM, temperatures and more.
 - [ProtonVPN](https://protonvpn.com/support/linux-ubuntu-vpn-setup/) - Private and secure VPN with free and paid plans.
 - [Spicetify CLI](https://github.com/khanhas/spicetify-cli) - Spotify custom CSS and themes, using [Pop Dark](https://github.com/morpheusthewhite/spicetify-themes/tree/master/Pop-Dark).
@@ -157,16 +156,12 @@ Follow the instructions for these packages to install or build from source.
 Additional and alternative software and applications that I do not currently have installed but are very useful. For professional software (i.e. design and engineering), a list can be found on the [Pop!_OS](https://pop.system76.com) website.
 
 - [AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) - AppImage integration with the application launcher which allows management, updates and removal of AppImage files. Alternative to appimaged.
-- [Bash-it](https://github.com/Bash-it/bash-it) - Bash customisation framework.
 - [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord) - Discord custom CSS and themes.
 - [Jellyfin](https://github.com/jellyfin/jellyfin) - Stream to any device from a self-hosted media server.
 - [ncdu](https://dev.yorhel.nl/ncdu) - CLI disk usage analyzer.
 - [NoiseTorch](https://github.com/lawl/NoiseTorch) - Real-time microphone noise suppression.
-- [Oh My Bash](https://github.com/ohmybash/oh-my-bash) - Bash customisation framework.
 - [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) - Fish customisation framework.
 - [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) - RGB lighting control.
-- [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) - Material and flat design icons.
-- [Pop!_Paste](https://paste.pop-planet.info) - Pastebin CLI tool for Pop!_Planet.
 - [QDirStat](https://github.com/shundhammer/qdirstat) - GUI disk usage analyzer based on KDirStat.
 - [TLP](https://github.com/linrunner/TLP) - CLI utility to save laptop battery power.
 
@@ -177,7 +172,6 @@ Additional and alternative software and applications that I do not currently hav
 - [Pop!_OS](https://pop.system76.com)
 - [Pop!_Docs](https://support.system76.com/#pop)
 - [Pop!_Chat](https://chat.pop-os.org)
-- [Pop!_Planet](https://pop-planet.info)
 - [Pop!_OS Reddit](https://reddit.com/r/pop_os)
 - [Pop!_OS Matrix](https://matrix.to/#/#pop_os:matrix.org)
 - [Pop!_OS GitHub](https://github.com/pop-os)

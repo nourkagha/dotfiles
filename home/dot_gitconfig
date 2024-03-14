@@ -4,6 +4,8 @@
 	signingkey = C1859ED057E714DC
 [commit]
 	gpgsign = true
+[init]
+	defaultBranch = main
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f

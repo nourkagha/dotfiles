@@ -73,7 +73,7 @@ success_symbol = '[󰸞](bold green)'
 error_symbol = '[✗](bold red)'
 
 [directory]
-style = "bold bg:pop-blue"
+style = "bold bg:pop-blue fg:white"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"

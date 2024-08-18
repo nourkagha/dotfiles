@@ -59,15 +59,17 @@ printf "Package: *\nPin: release o=LP-PPA-kisak-kisak-mesa\nPin-Priority: 2000\n
 
 sudo add-apt-repository ppa:maveonair/helix-editor
 
+# Add fastfetch PPA
+
+sudo add-apt-repository ppa:zhangsongcui3371/fastfetch
+
 # Install APT packages
 
 sudo apt update && sudo apt upgrade -y
 
 sudo apt install -y \
-alacritty \
 bat \
 code \
-dconf-editor \
 discord \
 element-desktop \
 fd-find \
@@ -86,13 +88,12 @@ hugo \
 mingw-w64 \
 mpv \
 nala \
-neofetch \
+fastfetch \
 obs-studio \
 peek \
 ppa-purge \
 restic \
 rclone \
-seahorse-nautilus \
 signal-desktop \
 spotify-client \
 stacer \
@@ -167,17 +168,6 @@ sudo apt install -y default-jdk
 
 cargo install --locked git-delta starship
 cargo install eza
-
-# Install Nautilus Open Any Terminal extension
-
-sudo apt install python3-nautilus -y
-pip install --user nautilus-open-any-terminal
-nautilus -q
-glib-compile-schemas ~/.local/share/glib-2.0/schemas/
-gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
-gsettings set com.github.stunkymonkey.nautilus-open-any-terminal keybindings '<Ctrl><Alt>t'
-gsettings set com.github.stunkymonkey.nautilus-open-any-terminal new-tab true
-gsettings set com.github.stunkymonkey.nautilus-open-any-terminal flatpak system
 
 # Install Netlify CLI
 

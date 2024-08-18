@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://pop.system76.com"><img src="https://img.shields.io/badge/OS-Pop!__OS_22.04_LTS-%2306989A?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABUpJREFUWIWdl0tMVFcYx3/n3jvDAMMA6ihGq+KLakU0FYumGseoFYg1mpg0Xbjpto1Jk9Y2TegzUbvSuGjipitrH6a2DS8fBWpaRF3U2mKqVkB5DPIQHQdmmDv3ni5ghrkzg3Plv5rzfd8533/u+V5HYBOV9W0eqZnVmGI7CmVIlgAFk+rHCLqk5IZANDnD0bpf9r761M65IpNB1aWrKw1DHhbIN4Acm3zHgDOGEMcu7qq4OyMCB1pbs4NB8bmUHAI0m46ToYM4HnaGalp8vrBtAjsvtK3QpPxRwppkndeVxZgRZVQ3nodIm5SO/ed3b/BnJFB5sXW9NMV5wBuTlc3ysGdREaUFeXicDgwpuR8co8k/xLkuP6Y9Ej2YorqxsuLmtAR2XmhboUr5R8y5CrxVspg9LxShKelv63L/MEdv3kXaJKFE1fL66o39MYES+7GtudmlSvlDzLlLU/lofQn7Fs+f1jnA1qLZvLlsgT33sFBqRu2B1tbsFALZuusLoCy2fvvFYjZ5Cy27P71xm/O9Aymn7l00nwKnwxYDCS8HgsoHFgJVl66unIz2OAqzUg8cCI1zsr2DG48CFnmeQ2PLvFm2CAAIKd+tqrtWFCdgGPIwSal2bXAkZWNxXi4GcPpeN6a03ro3O2uKvNOBb/4c1s3KRxNpr89taEYNgFJZ3+aZLDIW1Pc+pD80bpGVz5kofP+MPOW/wKhFp046EgJOVJTyfulyjmxYxclNpeRoaupXgIOv//x7niI1s5o0FU43JI091vuu8BayzD1hOhzRLbqeYAiAJe4cvC5nXL7EnUNJvjvdV8jVXWqVgim2p9MC1PY8ZHg8El9nqQrvvLSUirmFFOfGA5nBcISWh0MArC7Is5zxJKLTPpK+LUjkdgVlKvKTMapHudQ3ZJGV5Lv5eF0JRTkuAHRT8vWdB4SiE+VoeV6uxb6uZ4CIOV2pEmsVTIqnIwDw0wM/AT2aVhcyDI6336O5f4rk3IRgjJgmtQ/6022NYamCwPMsi8fjOg09qbl/cyTA4eu3aPJbv1Di/Tf2DDCSFCtJyFeepY3hbFcvA0kZcXVghLtJmQDg1iayWTdNznb1ZTxbQRLIZBTUDWq7H1pkG5OqZAzmZFf4vrOPwXAkrU0CnigodGakCZy77+d+cCy+XlOYx2J3dordqG7QFRzju87M/x7oUKTkhh3LqJSc6ewlVgBVIdgyb3aK3YlbHRy+fgt92shPhPhLEYgmOwQAfvMP0+QfjK9f8RZY9B6HxtB4ZNqsSfVv/qqEnaFaIDWapsGp2w/oG5uYrpZ53CzzTBXRExWlnNpcZrczjoYd4w1Ki88XBL61SyCg63z1bxdP9ShD4QjD4Yk0E0C2qqAp4pnzQwwSvmnx+YIC4pNQO2CvqQNzXE4ipiSQkOcLclzkOjTuPAlm2h5RVW1V3Y7yjjjV3efbvgT5XqKVIgSb5xaS55jZUPxUj9I6MJLSukEebXxt84eQMAOEnaEaV8S1BaiIyXYt8HJo9dIZOY/hRHsHjZYpSlwRxsgnsVW8Erb4fGElqu4DumOy/rFxoqbNcTMNoqbEH7I8B/o0zTzQUFUVL6sp0bK7oW0tiqwDFgLkaCqeGV5BQI8yFo2/H7oVRVbX79z8d6JN2nCtrL/sNVXnWYHcOiPPKRBXlKiyP3EcjyFtM2qo2jqoGI92SSE+4zlqRBpEQBwRxiNfOudg53Fad63I0IwaAQeB3Ez2kxgFeVpVHcfqdpR3PMswc8WYxLbmZnd2xFUtET6JXCegmITnuYRORfCnadI8nhWunyxwGfE/04kGHc9VPTkAAAAASUVORK5CYII=&style=for-the-badge" alt="OS"></a>
-<a href="https://gnome.org"><img src="https://img.shields.io/badge/DE-GNOME-%2306989A?style=for-the-badge&logo=gnome&logoColor=white" alt="DE"></a>
+<a href="https://system76.com/cosmic"><img src="https://img.shields.io/badge/DE-COSMIC-%2306989A?style=for-the-badge" alt="DE"></a>
 <a href="https://fishshell.com"><img src="https://img.shields.io/badge/shell-fish-%2306989A?style=for-the-badge" alt="Shell"></a>
 <a href="https://github.com/nourkagha/dotfiles/commits"><img src="https://img.shields.io/github/last-commit/nourkagha/dotfiles?label=updated&style=for-the-badge" alt="Updated"></a>
 </p>
@@ -23,7 +23,7 @@ Install [`chezmoi`](https://www.chezmoi.io/install) and run:
 
 ## Terminal
 
-Emulator: :computer: [Alacritty](https://github.com/alacritty/alacritty)
+Emulator: :computer: [COSMIC Terminal](https://github.com/pop-os/cosmic-term)
 
 Shell: :fish: [Fish](https://github.com/fish-shell/fish-shell)
 
@@ -33,32 +33,14 @@ Plugins: :zap: [Fisher](https://github.com/jorgebucaran/fisher)
 
 Editor: :dna: [Helix](https://github.com/helix-editor/helix)
 
-## Desktop Environment
-
-### GNOME Extensions
-
-Install the [GNOME Shell Integration](https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/) browser extension.
-
-- [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) - Fully customisable dock for favourite apps.
-- [Dash to Panel](https://extensions.gnome.org/extension/1160/dash-to-panel/) - Similar to Dash to Dock, but with a Windows look.
-- [GSConnect](https://extensions.gnome.org/extension/1319/gsconnect/) - Connects an Android phone using [KDE Connect](https://github.com/KDE/kdeconnect-android) to the desktop for phone notifications, file transfer, device control and sync options.
-- [User Themes](https://extensions.gnome.org/extension/19/user-themes/) - Desktop customisation using custom shell themes. Theme folders must be placed in the `~/.themes` directory and are applied and managed through GNOME Tweaks.
-- [Sound Input & Output Device Chooser](https://extensions.gnome.org/extension/906/sound-output-device-chooser/) - Shows a list of output and input devices in the status menu.
-- [Tray Icons: Reloaded](https://extensions.gnome.org/extension/2890/tray-icons-reloaded/) - Brings back tray icons (such as WINE apps) to the top panel.
-- [Caffeine](https://extensions.gnome.org/extension/517/caffeine/) - Disable the screensaver and auto suspend.
-- [GameMode](https://extensions.gnome.org/extension/1852/gamemode/) - GameMode status indicator.
-- [Syncthing Indicator](https://extensions.gnome.org/extension/1070/syncthing-indicator/) - Syncthing status indicator.
-
 ## Packages
 
 A list of my favourite and recommended applications.
 
 ### APT
 
-- [Alacritty](https://github.com/alacritty/alacritty) - GPU accelerated terminal emulator focused on performance and simplicity.
 - [bat](https://github.com/sharkdp/bat) - `cat` replacement with syntax highlighting, git integration and more features.
 - [Visual Studio Code](https://github.com/microsoft/vscode) - Code editor.
-- [Dconf Editor](https://gitlab.gnome.org/GNOME/dconf-editor) - GUI editor for GNOME shell settings and configuration.
 - [Discord](https://discord.com) - Community chat platform.
 - [Element](https://element.io) - Matrix chat client.
 - [fd](https://github.com/sharkdp/fd) - Faster and more user-friendly alternative to `find`.
@@ -75,7 +57,7 @@ A list of my favourite and recommended applications.
 - [Hugo](https://github.com/gohugoio/hugo) - Static site generator written in Go.
 - [mpv](https://github.com/mpv-player/mpv) - CLI video player.
 - [Nala](https://gitlab.com/volian/nala) - Frontend and wrapper for the APT package manager with parallel downloads.
-- [neofetch](https://github.com/dylanaraps/neofetch) - CLI system information tool.
+- [fastfetch](https://github.com/fastfetch-cli/fastfetchh) - CLI system information tool.
 - [OBS Studio](https://github.com/obsproject/obs-studio) - Live streaming and screen recording.
 - [Peek](https://github.com/phw/peek) - GIF recorder.
 - [Restic](https://github.com/restic/restic) - Fast, efficient, secure and cross-platform backup program.

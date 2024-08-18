@@ -9,7 +9,7 @@
 <a href="https://github.com/nourkagha/dotfiles/commits"><img src="https://img.shields.io/github/last-commit/nourkagha/dotfiles?label=updated&style=for-the-badge" alt="Updated"></a>
 </p>
 
-![Pop Desktop](https://i.imgur.com/dFdteLv.png)
+![Pop!_OS COSMIC Desktop](https://i.imgur.com/dFdteLv.png)
 
 # dotfiles
 

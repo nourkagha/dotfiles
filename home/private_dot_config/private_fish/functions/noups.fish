@@ -20,11 +20,6 @@ function noups -d "Perform updates and cleanup"
   rustup update
   echo
   set_color yellow
-  echo Updating restic...
-  set_color normal
-  sudo restic self-update
-  echo
-  set_color yellow
   echo Updating Starship...
   set_color normal
   sudo sh -c "$(curl -fsSL https://starship.rs/install.sh)" -y -f

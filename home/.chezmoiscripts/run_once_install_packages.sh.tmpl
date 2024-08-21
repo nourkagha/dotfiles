@@ -155,6 +155,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 wget "https://go.dev/dl/$(curl 'https://go.dev/VERSION?m=text' | head -1).linux-amd64.tar.gz"
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go*.linux-amd64.tar.gz
+rm go*.linux-amd64.tar.gz
 
 # Install Python
 

@@ -1,4 +1,4 @@
 (
     save_location: Pictures,
-    choice: Rectangle,
+    choice: Output(Some("Virtual-1")),
 )

@@ -6,4 +6,5 @@
     Pictures,
     Videos,
     Path("/home/nour/.local/share/chezmoi"),
+    Path("/home/nour/Projects"),
 ]

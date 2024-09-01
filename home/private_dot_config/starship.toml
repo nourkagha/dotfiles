@@ -93,17 +93,17 @@ read_only = " "
 
 [c]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [dart]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol $context ]($style) $path'
 
 [git_branch]
@@ -117,47 +117,47 @@ format = '[$all_status$ahead_behind ]($style)'
 
 [golang]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [gradle]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [haskell]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [java]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [julia]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [kotlin]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [lua]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [nodejs]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [nim]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [os.symbols]
@@ -203,25 +203,25 @@ Windows = " "
 
 [python]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [rlang]
 symbol = "ﳒ "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [ruby]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [rust]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'
 
 [scala]
 symbol = " "
-style = "bg:pop-blue"
+style = "bg:pop-blue fg:white"
 format = '[ $symbol ($version) ]($style)'

@@ -1,6 +1,7 @@
 [
     "com.system76.CosmicTerm",
     "com.system76.CosmicFiles",
+    "io.gitlab.librewolf-community",
     "firefox",
     "thunderbird",
     "com.system76.CosmicEdit",
@@ -8,6 +9,7 @@
     "spotify",
     "steam",
     "discord",
+    "org.telegram.desktop",
     "element-desktop",
     "signal-desktop",
     "com.obsproject.Studio",

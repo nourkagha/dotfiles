@@ -55,8 +55,10 @@ A list of my favourite and recommended applications.
 - [Helix](https://github.com/helix-editor/helix) - Modal text editor.
 - [htop](https://github.com/htop-dev/htop) - CLI interactive process viewer and system monitor.
 - [Hugo](https://github.com/gohugoio/hugo) - Static site generator written in Go.
+- [KiCad](https://gitlab.com/kicad/code/kicad) - EDA and electronic CAD software for schematic capture and PCB design.
 - [mpv](https://github.com/mpv-player/mpv) - CLI video player.
 - [Nala](https://gitlab.com/volian/nala) - Frontend and wrapper for the APT package manager with parallel downloads.
+- [nvtop](https://github.com/Syllo/nvtop) - GPU & accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm.
 - [fastfetch](https://github.com/fastfetch-cli/fastfetchh) - CLI system information tool.
 - [OBS Studio](https://github.com/obsproject/obs-studio) - Live streaming and screen recording.
 - [Peek](https://github.com/phw/peek) - GIF recorder.
@@ -93,6 +95,7 @@ A list of my favourite and recommended applications.
 - [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2) - GUI to install and manage Wine and Proton compatibility tools (such as Wine-GE and Proton-GE) for Steam and Lutris.
 - [Remmina](https://flathub.org/apps/org.remmina.Remmina) - Remote desktop client.
 - [Revolt](https://flathub.org/apps/chat.revolt.RevoltDesktop) - Privacy-friendly chat platform.
+- [Telegram](https://flathub.org/apps/org.telegram.desktop) - Instant messenger.
 - [Tor Browser](https://flathub.org/apps/com.github.micahflee.torbrowser-launcher) - Secure and anonymous browser.
 
 ### AppImage

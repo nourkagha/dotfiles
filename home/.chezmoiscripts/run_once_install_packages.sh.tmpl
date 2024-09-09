@@ -51,22 +51,30 @@ sudo mkdir -pm755 /etc/apt/keyrings
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/noble/winehq-noble.sources
 
-# Add Kisak Mesa PPA and pin
+# Add Kisak Mesa and pin
 
 sudo add-apt-repository -y ppa:kisak/kisak-mesa
 printf "Package: *\nPin: release o=LP-PPA-kisak-kisak-mesa\nPin-Priority: 2000\n" | sudo tee /etc/apt/preferences.d/kisak-mesa
 
-# Add fish PPA
+# Add fish
 
 sudo apt-add-repository -y ppa:fish-shell/release-3
 
-# Add Helix editor PPA
+# Add Helix editor
 
 sudo add-apt-repository -y ppa:maveonair/helix-editor
 
-# Add fastfetch PPA
+# Add fastfetch
 
 sudo add-apt-repository -y ppa:zhangsongcui3371/fastfetch
+
+# Add KiCad
+
+sudo add-apt-repository -y ppa:kicad/kicad-8.0-releases
+
+# Add nvtop
+
+sudo add-apt-repository -y ppa:flexiondotorg/nvtop
 
 # Install APT packages
 
@@ -90,9 +98,11 @@ gufw \
 helix \
 htop \
 hugo \
+kicad \
 mingw-w64 \
 mpv \
 nala \
+nvtop \
 fastfetch \
 obs-studio \
 peek \
@@ -136,6 +146,7 @@ org.prismlauncher.PrismLauncher \
 net.davidotek.pupgui2 \
 org.remmina.Remmina \
 chat.revolt.RevoltDesktop \
+org.telegram.desktop \
 com.github.micahflee.torbrowser-launcher
 
 # Install and run the AppImage daemon

@@ -32,11 +32,6 @@ wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signa
 cat signal-desktop-keyring.gpg | sudo tee /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null
 echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' | sudo tee /etc/apt/sources.list.d/signal-xenial.list
 
-# Add Spotify
-
-curl -sS https://download.spotify.com/debian/pubkey_6224F9941A8AA6D1.gpg | sudo gpg --dearmor --yes -o /etc/apt/trusted.gpg.d/spotify.gpg
-echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
-
 # Add Syncthing
 
 sudo mkdir -p /etc/apt/keyrings
@@ -112,7 +107,6 @@ ppa-purge \
 restic \
 rclone \
 signal-desktop \
-spotify-client \
 stacer \
 steam \
 stow \
@@ -148,6 +142,7 @@ org.prismlauncher.PrismLauncher \
 net.davidotek.pupgui2 \
 org.remmina.Remmina \
 chat.revolt.RevoltDesktop \
+com.spotify.Client \
 dev.edfloreshz.Tasks \
 org.telegram.desktop \
 com.github.micahflee.torbrowser-launcher \

@@ -83,6 +83,7 @@ A list of my favourite and recommended applications.
 
 - [Bottles](https://flathub.org/apps/com.usebottles.bottles) - GUI to manage Wine prefixes and install and run Windows software.
 - [Celluloid](https://flathub.org/apps/io.github.celluloid_player.Celluloid) - GTK+ frontend for MPV video player.
+- [Cryptomator](https://flathub.org/apps/org.cryptomator.Cryptomator) - Local and cloud file encryption.
 - [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal) - GUI to review and modify Flatpak permissions.
 - [GIMP](https://flathub.org/apps/org.gimp.GIMP) - Photo editor.
 - [Heroic Games Launcher](https://flathub.org/apps/com.heroicgameslauncher.hgl) - GOG and Epic Games launcher.
@@ -113,7 +114,6 @@ Download the following AppImage packages into `~/Applications`:
 - [Cadmus](https://github.com/josh-richardson/cadmus/releases) - Real-time microphone noise suppression, similar to Krisp and RTX Voice.
 - [Chatterino](https://github.com/Chatterino/chatterino2/releases) - Twitch chat client.
 - [Conky](https://github.com/brndnmtthws/conky/releases) - System monitor for X which displays information on the desktop.
-- [Cryptomator](https://github.com/cryptomator/cryptomator/releases) - Local and cloud file encryption.
 - [Electrum](https://electrum.org/#download) - Bitcoin wallet.
 - [FontForge](https://github.com/fontforge/fontforge/releases) - Font editor.
 - [FreeTube](https://github.com/FreeTubeApp/FreeTube/releases) - Private YouTube client.

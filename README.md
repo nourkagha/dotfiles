@@ -21,9 +21,9 @@ Install [`chezmoi`](https://www.chezmoi.io/install) and run:
 
     chezmoi init --apply nourkagha
 
-## Terminal
+## Software
 
-Emulator: :computer: [COSMIC Terminal](https://github.com/pop-os/cosmic-term)
+Terminal: :keyboard: [COSMIC Terminal](https://github.com/pop-os/cosmic-term)
 
 Shell: :fish: [Fish](https://github.com/fish-shell/fish-shell)
 
@@ -31,7 +31,7 @@ Prompt: :rocket: [Starship](https://github.com/starship/starship)
 
 Plugins: :zap: [Fisher](https://github.com/jorgebucaran/fisher)
 
-Editor: :dna: [Helix](https://github.com/helix-editor/helix)
+Editor: :computer: [VS Code](https://github.com/microsoft/vscode)
 
 ## Packages
 
